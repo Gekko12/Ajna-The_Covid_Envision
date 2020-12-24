@@ -1,0 +1,41 @@
+						--- Ajna #1 ---
+
+
+
+----------------------------------creation of tables---------------------------
+CREATE TABLE "Student"(				#we put quotes in table to avoid collision from SQL keywords
+	"USN"	TEXT NOT NULL UNIQUE,
+	"SName"	TEXT NOT NULL,
+	"Address"	TEXT,
+	"Phone Number"	NUMERIC NOT NULL UNIQUE,
+	"Gender"	TEXT,
+	PRIMARY KEY("USN")
+);
+
+
+CREATE TABLE "Travel"(
+	"State" TEXT,
+	"City" TEXT,
+	"ZipCode" INTEGER,
+	"USN" REFERENCES "Student"("USN") ON DELETE CASCADE ,	#on delete cascade del from child table if data is deleted from parents table
+	PRIMARY KEY("USN")
+);
+
+
+CREATE TABLE "Zone"(
+	"ZipCode" NUMERIC NOT NULL UNIQUE ,
+	"Red" TEXT ,
+	"Orange" TEXT ,
+	"Green" TEXT,
+	PRIMARY KEY("ZipCode")
+);
+				#https://covidindia.org/zone-restrictions/#
+
+
+-----------------------------manipulation of data-----------------------------------
+INSERT INTO Student VALUES ("1AT18CS128", "GAURAV SHARMA", "AKASH VIHAR", 8054533256, "MALE");
+INSERT INTO Travel VALUES ("1AT18CS128", "KARNATAKA", "BANGALORE" ,560037);
+DELETE FROM Student WHERE USN = "1AT18CS128" ;	#now our both Student and Travel tables are empty because of on delete cascade
+
+
+
