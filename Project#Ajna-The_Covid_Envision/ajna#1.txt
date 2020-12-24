@@ -1,0 +1,63 @@
+						--- Ajna #1 ---
+
+
+
+----------------------------------creation of tables---------------------------
+CREATE TABLE "Student"(				#we put quotes in table to avoid collision from SQL keywords
+	"USN"	TEXT NOT NULL UNIQUE,
+	"SName"	TEXT NOT NULL,
+	"Address"	TEXT,
+	"Phone Number"	INTEGER NOT NULL UNIQUE,
+	"Gender"	TEXT,
+	PRIMARY KEY("USN")
+);
+
+
+CREATE TABLE "Travel History"(
+	"USN" TEXT
+	"State" TEXT,
+	"City" TEXT,
+	"ZipCode" INTEGER,	
+	PRIMARY KEY("USN")
+	FOREIGN KEY("USN") REFERENCES "Student"("USN") ON DELETE CASCADE	#on delete cascade del from child table if data is deleted from parents table
+);
+
+
+CREATE TABLE "Zone"(
+	"ZipCode" INTEGER NOT NULL UNIQUE ,
+	"Red" TEXT ,
+	"Orange" TEXT ,
+	"Green" TEXT,
+	PRIMARY KEY("ZipCode")
+);
+				#https://covidindia.org/zone-restrictions/#
+				
+CREATE TABLE "Covid Symptoms"(
+	"USN" TEXT
+	"Covid Positive" BOOLEAN NOT NULL CHECK ("Covid Positive" IN (0,1)) ,   #as boolean type not support in sql so we make our own type BOOLEAN and checking it lies in range 0 and 1 only ie. 0 means False ,1 means True 
+	"Fever" BOOLEAN NOT NULL CHECK ("Fever" IN (0,1)) ,
+	"Cough" BOOLEAN NOT NULL CHECK ("Cough" IN (0,1)) ,
+	"Breathlessness" BOOLEAN NOT NULL CHECK ("Breathlessness" IN (0,1)) ,
+	"Body Ache" BOOLEAN NOT NULL CHECK ("Body Ache" IN (0,1)) ,
+	FOREIGN KEY("USN") REFERENCES "Student"("USN") ON DELETE CASCADE ,
+	PRIMARY KEY ("USN")
+);
+
+
+CREATE TABLE "Meet History" (
+	"USN"	TEXT,
+	"Date"	date,
+	"M_USN"	TEXT,
+	"M_Name"	TEXT,
+	FOREIGN KEY("USN") REFERENCES "Student"("USN") ON DELETE CASCADE,
+	PRIMARY KEY("USN")
+);
+
+
+-----------------------------manipulation of data-----------------------------------
+INSERT INTO Student VALUES ("1AT18CS128", "GAURAV SHARMA", "AKASH VIHAR", 8054533256, "MALE");
+INSERT INTO Travel VALUES ("1AT18CS128", "KARNATAKA", "BANGALORE" ,560037);
+DELETE FROM Student WHERE USN = "1AT18CS128" ;	#now our both Student and Travel tables are empty because of on delete cascade
+
+
+
