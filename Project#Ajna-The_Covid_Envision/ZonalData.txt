@@ -1,0 +1,1475 @@
+</tr><tr class="row-2 even" role="row">
+	<td class="column-1">Andaman &amp; Nicobar Islands</td><td class="column-2">Nicobar</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-3 odd" role="row">
+	<td class="column-1">Andaman &amp; Nicobar Islands</td><td class="column-2">North &amp; Middle Andaman</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-4 even" role="row">
+	<td class="column-1">Andaman &amp; Nicobar Islands</td><td class="column-2">South Andaman</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-5 odd" role="row">
+	<td class="column-1">Andhra Pradesh</td><td class="column-2">Anantapur</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-6 even" role="row">
+	<td class="column-1">Andhra Pradesh</td><td class="column-2">Chittoor</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-7 odd" role="row">
+	<td class="column-1">Andhra Pradesh</td><td class="column-2">East Godavari</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-8 even" role="row">
+	<td class="column-1">Andhra Pradesh</td><td class="column-2">Guntur</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-9 odd" role="row">
+	<td class="column-1">Andhra Pradesh</td><td class="column-2">Kadapa</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-10 even" role="row">
+	<td class="column-1">Andhra Pradesh</td><td class="column-2">Krishna</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-11 odd" role="row">
+	<td class="column-1">Andhra Pradesh</td><td class="column-2">Kurnool</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-12 even" role="row">
+	<td class="column-1">Andhra Pradesh</td><td class="column-2">Prakasam</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-13 odd" role="row">
+	<td class="column-1">Andhra Pradesh</td><td class="column-2">Sri Potti Sriramulu Nellore</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-14 even" role="row">
+	<td class="column-1">Andhra Pradesh</td><td class="column-2">Srikakulam</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-15 odd" role="row">
+	<td class="column-1">Andhra Pradesh</td><td class="column-2">Visakhapatnam</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-16 even" role="row">
+	<td class="column-1">Andhra Pradesh</td><td class="column-2">Vizianagaram</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-17 odd" role="row">
+	<td class="column-1">Andhra Pradesh</td><td class="column-2">West Godavari</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-18 even" role="row">
+	<td class="column-1">Arunachal Pradesh</td><td class="column-2">Anjaw</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-19 odd" role="row">
+	<td class="column-1">Arunachal Pradesh</td><td class="column-2">Changlang South</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-20 even" role="row">
+	<td class="column-1">Arunachal Pradesh</td><td class="column-2">East Kameng</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-21 odd" role="row">
+	<td class="column-1">Arunachal Pradesh</td><td class="column-2">East Siang</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-22 even" role="row">
+	<td class="column-1">Arunachal Pradesh</td><td class="column-2">Kamle</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-23 odd" role="row">
+	<td class="column-1">Arunachal Pradesh</td><td class="column-2">Kra Daadi</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-24 even" role="row">
+	<td class="column-1">Arunachal Pradesh</td><td class="column-2">Kurung Kumey</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-25 odd" role="row">
+	<td class="column-1">Arunachal Pradesh</td><td class="column-2">Lepa Rada</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-26 even" role="row">
+	<td class="column-1">Arunachal Pradesh</td><td class="column-2">Lohit</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-27 odd" role="row">
+	<td class="column-1">Arunachal Pradesh</td><td class="column-2">Longding</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-28 even" role="row">
+	<td class="column-1">Arunachal Pradesh</td><td class="column-2">Lower Dibang Valley</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-29 odd" role="row">
+	<td class="column-1">Arunachal Pradesh</td><td class="column-2">Lower Siang</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-30 even" role="row">
+	<td class="column-1">Arunachal Pradesh</td><td class="column-2">Lower Subansiri</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-31 odd" role="row">
+	<td class="column-1">Arunachal Pradesh</td><td class="column-2">Namsai</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-32 even" role="row">
+	<td class="column-1">Arunachal Pradesh</td><td class="column-2">Pakke-Kessang</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-33 odd" role="row">
+	<td class="column-1">Arunachal Pradesh</td><td class="column-2">Papum Pare</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-34 even" role="row">
+	<td class="column-1">Arunachal Pradesh</td><td class="column-2">Shi Yomi</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-35 odd" role="row">
+	<td class="column-1">Arunachal Pradesh</td><td class="column-2">Siang</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-36 even" role="row">
+	<td class="column-1">Arunachal Pradesh</td><td class="column-2">Tawang</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-37 odd" role="row">
+	<td class="column-1">Arunachal Pradesh</td><td class="column-2">Tirap</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-38 even" role="row">
+	<td class="column-1">Arunachal Pradesh</td><td class="column-2">Upper Dibang Valley</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-39 odd" role="row">
+	<td class="column-1">Arunachal Pradesh</td><td class="column-2">Upper Siang</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-40 even" role="row">
+	<td class="column-1">Arunachal Pradesh</td><td class="column-2">Upper Subansiri</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-41 odd" role="row">
+	<td class="column-1">Arunachal Pradesh</td><td class="column-2">West Kameng</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-42 even" role="row">
+	<td class="column-1">Arunachal Pradesh</td><td class="column-2">West Siang</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-43 odd" role="row">
+	<td class="column-1">Assam</td><td class="column-2">Baksa</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-44 even" role="row">
+	<td class="column-1">Assam</td><td class="column-2">Barpeta</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-45 odd" role="row">
+	<td class="column-1">Assam</td><td class="column-2">Bishwanath</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-46 even" role="row">
+	<td class="column-1">Assam</td><td class="column-2">Bongaigaon</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-47 odd" role="row">
+	<td class="column-1">Assam</td><td class="column-2">Cachar</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-48 even" role="row">
+	<td class="column-1">Assam</td><td class="column-2">Charaideo</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-49 odd" role="row">
+	<td class="column-1">Assam</td><td class="column-2">Chirang</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-50 even" role="row">
+	<td class="column-1">Assam</td><td class="column-2">Darrang</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-51 odd" role="row">
+	<td class="column-1">Assam</td><td class="column-2">Dhemaji</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-52 even" role="row">
+	<td class="column-1">Assam</td><td class="column-2">Dhubri</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-53 odd" role="row">
+	<td class="column-1">Assam</td><td class="column-2">Dibrugarh</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-54 even" role="row">
+	<td class="column-1">Assam</td><td class="column-2">Dima Hasao</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-55 odd" role="row">
+	<td class="column-1">Assam</td><td class="column-2">Goalpara</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-56 even" role="row">
+	<td class="column-1">Assam</td><td class="column-2">Golaghat</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-57 odd" role="row">
+	<td class="column-1">Assam</td><td class="column-2">Hailakandi</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-58 even" role="row">
+	<td class="column-1">Assam</td><td class="column-2">Hojai</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-59 odd" role="row">
+	<td class="column-1">Assam</td><td class="column-2">Jorhat</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-60 even" role="row">
+	<td class="column-1">Assam</td><td class="column-2">Kamrup</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-61 odd" role="row">
+	<td class="column-1">Assam</td><td class="column-2">Kamrup Metropolitan</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-62 even" role="row">
+	<td class="column-1">Assam</td><td class="column-2">Karbi Anglong</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-63 odd" role="row">
+	<td class="column-1">Assam</td><td class="column-2">Karimganj</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-64 even" role="row">
+	<td class="column-1">Assam</td><td class="column-2">Kokrajhar</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-65 odd" role="row">
+	<td class="column-1">Assam</td><td class="column-2">Lakhimpur</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-66 even" role="row">
+	<td class="column-1">Assam</td><td class="column-2">Majuli</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-67 odd" role="row">
+	<td class="column-1">Assam</td><td class="column-2">Marigaon</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-68 even" role="row">
+	<td class="column-1">Assam</td><td class="column-2">Nagaon</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-69 odd" role="row">
+	<td class="column-1">Assam</td><td class="column-2">Nalbari</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-70 even" role="row">
+	<td class="column-1">Assam</td><td class="column-2">Sivasagar</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-71 odd" role="row">
+	<td class="column-1">Assam</td><td class="column-2">Salmara South</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-72 even" role="row">
+	<td class="column-1">Assam</td><td class="column-2">Sonitpur</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-73 odd" role="row">
+	<td class="column-1">Assam</td><td class="column-2">Tinsukia</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-74 even" role="row">
+	<td class="column-1">Assam</td><td class="column-2">Udalguri</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-75 odd" role="row">
+	<td class="column-1">Assam</td><td class="column-2">West Karbi Anglong</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-76 even" role="row">
+	<td class="column-1">Bihar</td><td class="column-2">Araria</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-77 odd" role="row">
+	<td class="column-1">Bihar</td><td class="column-2">Arwal</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-78 even" role="row">
+	<td class="column-1">Bihar</td><td class="column-2">Aurangabad</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-79 odd" role="row">
+	<td class="column-1">Bihar</td><td class="column-2">Banka</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-80 even" role="row">
+	<td class="column-1">Bihar</td><td class="column-2">Begusarai</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-81 odd" role="row">
+	<td class="column-1">Bihar</td><td class="column-2">Bhagalpur</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-82 even" role="row">
+	<td class="column-1">Bihar</td><td class="column-2">Bhojpur</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-83 odd" role="row">
+	<td class="column-1">Bihar</td><td class="column-2">Buxar</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-84 even" role="row">
+	<td class="column-1">Bihar</td><td class="column-2">Darbhanga</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-85 odd" role="row">
+	<td class="column-1">Bihar</td><td class="column-2">East Champaran</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-86 even" role="row">
+	<td class="column-1">Bihar</td><td class="column-2">Gaya Town</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-87 odd" role="row">
+	<td class="column-1">Bihar</td><td class="column-2">Gopalganj</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-88 even" role="row">
+	<td class="column-1">Bihar</td><td class="column-2">Jamui</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-89 odd" role="row">
+	<td class="column-1">Bihar</td><td class="column-2">Jehanabad</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-90 even" role="row">
+	<td class="column-1">Bihar</td><td class="column-2">Kaimur</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-91 odd" role="row">
+	<td class="column-1">Bihar</td><td class="column-2">Katihar</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-92 even" role="row">
+	<td class="column-1">Bihar</td><td class="column-2">Khagaria</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-93 odd" role="row">
+	<td class="column-1">Bihar</td><td class="column-2">Kishanganj</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-94 even" role="row">
+	<td class="column-1">Bihar</td><td class="column-2">Lakhisarai</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-95 odd" role="row">
+	<td class="column-1">Bihar</td><td class="column-2">Madhepura</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-96 even" role="row">
+	<td class="column-1">Bihar</td><td class="column-2">Madhubani</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-97 odd" role="row">
+	<td class="column-1">Bihar</td><td class="column-2">Munger</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-98 even" role="row">
+	<td class="column-1">Bihar</td><td class="column-2">Muzaffarpur</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-99 odd" role="row">
+	<td class="column-1">Bihar</td><td class="column-2">Nalanda</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-100 even" role="row">
+	<td class="column-1">Bihar</td><td class="column-2">Nawada</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-101 odd" role="row">
+	<td class="column-1">Bihar</td><td class="column-2">Patna Sahib</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-102 even" role="row">
+	<td class="column-1">Bihar</td><td class="column-2">Purnia</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-103 odd" role="row">
+	<td class="column-1">Bihar</td><td class="column-2">Rohtas</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-104 even" role="row">
+	<td class="column-1">Bihar</td><td class="column-2">Saharsa</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-105 odd" role="row">
+	<td class="column-1">Bihar</td><td class="column-2">Samastipur</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-106 even" role="row">
+	<td class="column-1">Bihar</td><td class="column-2">Saran</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-107 odd" role="row">
+	<td class="column-1">Bihar</td><td class="column-2">Sheikhpura</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-108 even" role="row">
+	<td class="column-1">Bihar</td><td class="column-2">Sheohar</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-109 odd" role="row">
+	<td class="column-1">Bihar</td><td class="column-2">Sitamarhi</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-110 even" role="row">
+	<td class="column-1">Bihar</td><td class="column-2">Siwan</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-111 odd" role="row">
+	<td class="column-1">Bihar</td><td class="column-2">Supaul</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-112 even" role="row">
+	<td class="column-1">Bihar</td><td class="column-2">Vaishali</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-113 odd" role="row">
+	<td class="column-1">Bihar</td><td class="column-2">West Champaran</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-114 even" role="row">
+	<td class="column-1">Chandigarh</td><td class="column-2">Chandigarh</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-115 odd" role="row">
+	<td class="column-1">Chattisgarh</td><td class="column-2">Balod</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-116 even" role="row">
+	<td class="column-1">Chattisgarh</td><td class="column-2">Baloda Bazar</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-117 odd" role="row">
+	<td class="column-1">Chattisgarh</td><td class="column-2">Balrampur</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-118 even" role="row">
+	<td class="column-1">Chattisgarh</td><td class="column-2">Bastar</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-119 odd" role="row">
+	<td class="column-1">Chattisgarh</td><td class="column-2">Bemetara</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-120 even" role="row">
+	<td class="column-1">Chattisgarh</td><td class="column-2">Bijapur</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-121 odd" role="row">
+	<td class="column-1">Chattisgarh</td><td class="column-2">Bilaspur</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-122 even" role="row">
+	<td class="column-1">Chattisgarh</td><td class="column-2">Dantewada</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-123 odd" role="row">
+	<td class="column-1">Chattisgarh</td><td class="column-2">Dhamtari</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-124 even" role="row">
+	<td class="column-1">Chattisgarh</td><td class="column-2">Durg - Rural</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-125 odd" role="row">
+	<td class="column-1">Chattisgarh</td><td class="column-2">Gariaband</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-126 even" role="row">
+	<td class="column-1">Chattisgarh</td><td class="column-2">Gaurela-Pendra-Marwahi</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-127 odd" role="row">
+	<td class="column-1">Chattisgarh</td><td class="column-2">Janjgir - Champa</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-128 even" role="row">
+	<td class="column-1">Chattisgarh</td><td class="column-2">Jashpur</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-129 odd" role="row">
+	<td class="column-1">Chattisgarh</td><td class="column-2">Kabirdham</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-130 even" role="row">
+	<td class="column-1">Chattisgarh</td><td class="column-2">Kanker</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-131 odd" role="row">
+	<td class="column-1">Chattisgarh</td><td class="column-2">Kondagaon</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-132 even" role="row">
+	<td class="column-1">Chattisgarh</td><td class="column-2">Korba</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-133 odd" role="row">
+	<td class="column-1">Chattisgarh</td><td class="column-2">Koriya</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-134 even" role="row">
+	<td class="column-1">Chattisgarh</td><td class="column-2">Mahasamund</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-135 odd" role="row">
+	<td class="column-1">Chattisgarh</td><td class="column-2">Mungeli</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-136 even" role="row">
+	<td class="column-1">Chattisgarh</td><td class="column-2">Narayanpur</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-137 odd" role="row">
+	<td class="column-1">Chattisgarh</td><td class="column-2">Raigarh</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-138 even" role="row">
+	<td class="column-1">Chattisgarh</td><td class="column-2">Raipur Rural</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-139 odd" role="row">
+	<td class="column-1">Chattisgarh</td><td class="column-2">Rajnandgaon</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-140 even" role="row">
+	<td class="column-1">Chattisgarh</td><td class="column-2">Sukma</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-141 odd" role="row">
+	<td class="column-1">Chattisgarh</td><td class="column-2">Surajpur</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-142 even" role="row">
+	<td class="column-1">Chattisgarh</td><td class="column-2">Surguja</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-143 odd" role="row">
+	<td class="column-1">Dadra and Nagar Haveli and Daman and Diu</td><td class="column-2">Daman</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-144 even" role="row">
+	<td class="column-1">Dadra and Nagar Haveli and Daman and Diu</td><td class="column-2">Diu</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-145 odd" role="row">
+	<td class="column-1">Dadra and Nagar Haveli and Daman and Diu</td><td class="column-2">Dadra and Nagar Haveli</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-146 even" role="row">
+	<td class="column-1">Delhi</td><td class="column-2">Central Delhi</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-147 odd" role="row">
+	<td class="column-1">Delhi</td><td class="column-2">East Delhi</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-148 even" role="row">
+	<td class="column-1">Delhi</td><td class="column-2">New Delhi</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-149 odd" role="row">
+	<td class="column-1">Delhi</td><td class="column-2">North Delhi</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-150 even" role="row">
+	<td class="column-1">Delhi</td><td class="column-2">North East Delhi</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-151 odd" role="row">
+	<td class="column-1">Delhi</td><td class="column-2">North West Delhi</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-152 even" role="row">
+	<td class="column-1">Delhi</td><td class="column-2">Shahdara</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-153 odd" role="row">
+	<td class="column-1">Delhi</td><td class="column-2">South Delhi</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-154 even" role="row">
+	<td class="column-1">Delhi</td><td class="column-2">South East Delhi</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-155 odd" role="row">
+	<td class="column-1">Delhi</td><td class="column-2">South West Delhi</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-156 even" role="row">
+	<td class="column-1">Delhi</td><td class="column-2">West Delhi</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-157 odd" role="row">
+	<td class="column-1">Goa</td><td class="column-2">North Goa</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-158 even" role="row">
+	<td class="column-1">Goa</td><td class="column-2">South Goa</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-159 odd" role="row">
+	<td class="column-1">Gujarat</td><td class="column-2">Ahmedabad</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-160 even" role="row">
+	<td class="column-1">Gujarat</td><td class="column-2">Amreli</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-161 odd" role="row">
+	<td class="column-1">Gujarat</td><td class="column-2">Anand</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-162 even" role="row">
+	<td class="column-1">Gujarat</td><td class="column-2">Aravalli</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-163 odd" role="row">
+	<td class="column-1">Gujarat</td><td class="column-2">Banaskantha</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-164 even" role="row">
+	<td class="column-1">Gujarat</td><td class="column-2">Bharuch</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-165 odd" role="row">
+	<td class="column-1">Gujarat</td><td class="column-2">Bhavnagar Rural</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-166 even" role="row">
+	<td class="column-1">Gujarat</td><td class="column-2">Botad</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-167 odd" role="row">
+	<td class="column-1">Gujarat</td><td class="column-2">Chhota Udepur</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-168 even" role="row">
+	<td class="column-1">Gujarat</td><td class="column-2">Dahod</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-169 odd" role="row">
+	<td class="column-1">Gujarat</td><td class="column-2">Dangs</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-170 even" role="row">
+	<td class="column-1">Gujarat</td><td class="column-2">Devbhoomi Dwarka</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-171 odd" role="row">
+	<td class="column-1">Gujarat</td><td class="column-2">Gandhinagar</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-172 even" role="row">
+	<td class="column-1">Gujarat</td><td class="column-2">Gir Somnath</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-173 odd" role="row">
+	<td class="column-1">Gujarat</td><td class="column-2">Jamnagar</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-174 even" role="row">
+	<td class="column-1">Gujarat</td><td class="column-2">Junagadh</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-175 odd" role="row">
+	<td class="column-1">Gujarat</td><td class="column-2">Kheda</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-176 even" role="row">
+	<td class="column-1">Gujarat</td><td class="column-2">Kutch</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-177 odd" role="row">
+	<td class="column-1">Gujarat</td><td class="column-2">Mahisagar</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-178 even" role="row">
+	<td class="column-1">Gujarat</td><td class="column-2">Mehsana</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-179 odd" role="row">
+	<td class="column-1">Gujarat</td><td class="column-2">Morbi</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-180 even" role="row">
+	<td class="column-1">Gujarat</td><td class="column-2">Narmada</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-181 odd" role="row">
+	<td class="column-1">Gujarat</td><td class="column-2">Navsari</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-182 even" role="row">
+	<td class="column-1">Gujarat</td><td class="column-2">Panchmahal</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-183 odd" role="row">
+	<td class="column-1">Gujarat</td><td class="column-2">Patan</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-184 even" role="row">
+	<td class="column-1">Gujarat</td><td class="column-2">Porbandar</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-185 odd" role="row">
+	<td class="column-1">Gujarat</td><td class="column-2">Rajkot</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-186 even" role="row">
+	<td class="column-1">Gujarat</td><td class="column-2">Sabarkantha</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-187 odd" role="row">
+	<td class="column-1">Gujarat</td><td class="column-2">Surat</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-188 even" role="row">
+	<td class="column-1">Gujarat</td><td class="column-2">Surendranagar</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-189 odd" role="row">
+	<td class="column-1">Gujarat</td><td class="column-2">Tapi</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-190 even" role="row">
+	<td class="column-1">Gujarat</td><td class="column-2">Vadodara</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-191 odd" role="row">
+	<td class="column-1">Gujarat</td><td class="column-2">Valsad</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-192 even" role="row">
+	<td class="column-1">Haryana</td><td class="column-2">Ambala</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-193 odd" role="row">
+	<td class="column-1">Haryana</td><td class="column-2">Bhiwani</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-194 even" role="row">
+	<td class="column-1">Haryana</td><td class="column-2">Charkhi Dadri</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-195 odd" role="row">
+	<td class="column-1">Haryana</td><td class="column-2">Faridabad</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-196 even" role="row">
+	<td class="column-1">Haryana</td><td class="column-2">Fatehabad</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-197 odd" role="row">
+	<td class="column-1">Haryana</td><td class="column-2">Gurugram</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-198 even" role="row">
+	<td class="column-1">Haryana</td><td class="column-2">Hisar</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-199 odd" role="row">
+	<td class="column-1">Haryana</td><td class="column-2">Jhajjar</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-200 even" role="row">
+	<td class="column-1">Haryana</td><td class="column-2">Jind</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-201 odd" role="row">
+	<td class="column-1">Haryana</td><td class="column-2">Kaithal</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-202 even" role="row">
+	<td class="column-1">Haryana</td><td class="column-2">Karnal</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-203 odd" role="row">
+	<td class="column-1">Haryana</td><td class="column-2">Kurukshetra</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-204 even" role="row">
+	<td class="column-1">Haryana</td><td class="column-2">Mahendragarh</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-205 odd" role="row">
+	<td class="column-1">Haryana</td><td class="column-2">Nuh</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-206 even" role="row">
+	<td class="column-1">Haryana</td><td class="column-2">Palwal</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-207 odd" role="row">
+	<td class="column-1">Haryana</td><td class="column-2">Panchkula</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-208 even" role="row">
+	<td class="column-1">Haryana</td><td class="column-2">Panipat</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-209 odd" role="row">
+	<td class="column-1">Haryana</td><td class="column-2">Rewari</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-210 even" role="row">
+	<td class="column-1">Haryana</td><td class="column-2">Rohtak</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-211 odd" role="row">
+	<td class="column-1">Haryana</td><td class="column-2">Sirsa</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-212 even" role="row">
+	<td class="column-1">Haryana</td><td class="column-2">Sonipat</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-213 odd" role="row">
+	<td class="column-1">Haryana</td><td class="column-2">Yamunanagar</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-214 even" role="row">
+	<td class="column-1">Himachal Pradesh</td><td class="column-2">Bilaspur</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-215 odd" role="row">
+	<td class="column-1">Himachal Pradesh</td><td class="column-2">Chamba</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-216 even" role="row">
+	<td class="column-1">Himachal Pradesh</td><td class="column-2">Hamirpur</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-217 odd" role="row">
+	<td class="column-1">Himachal Pradesh</td><td class="column-2">Kangra</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-218 even" role="row">
+	<td class="column-1">Himachal Pradesh</td><td class="column-2">Kinnaur</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-219 odd" role="row">
+	<td class="column-1">Himachal Pradesh</td><td class="column-2">Kullu</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-220 even" role="row">
+	<td class="column-1">Himachal Pradesh</td><td class="column-2">Lahaul and Spiti</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-221 odd" role="row">
+	<td class="column-1">Himachal Pradesh</td><td class="column-2">Mandi</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-222 even" role="row">
+	<td class="column-1">Himachal Pradesh</td><td class="column-2">Shimla</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-223 odd" role="row">
+	<td class="column-1">Himachal Pradesh</td><td class="column-2">Sirmaur</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-224 even" role="row">
+	<td class="column-1">Himachal Pradesh</td><td class="column-2">Solan</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-225 odd" role="row">
+	<td class="column-1">Himachal Pradesh</td><td class="column-2">Una</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-226 even" role="row">
+	<td class="column-1">Jammu &amp; Kashmir</td><td class="column-2">Anantnag</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-227 odd" role="row">
+	<td class="column-1">Jammu &amp; Kashmir</td><td class="column-2">Bandipora</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-228 even" role="row">
+	<td class="column-1">Jammu &amp; Kashmir</td><td class="column-2">Baramulla</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-229 odd" role="row">
+	<td class="column-1">Jammu &amp; Kashmir</td><td class="column-2">Badgam</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-230 even" role="row">
+	<td class="column-1">Jammu &amp; Kashmir</td><td class="column-2">Doda</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-231 odd" role="row">
+	<td class="column-1">Jammu &amp; Kashmir</td><td class="column-2">Ganderbal</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-232 even" role="row">
+	<td class="column-1">Jammu &amp; Kashmir</td><td class="column-2">Jammu</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-233 odd" role="row">
+	<td class="column-1">Jammu &amp; Kashmir</td><td class="column-2">Kathua</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-234 even" role="row">
+	<td class="column-1">Jammu &amp; Kashmir</td><td class="column-2">Kishtwar</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-235 odd" role="row">
+	<td class="column-1">Jammu &amp; Kashmir</td><td class="column-2">Kulgam</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-236 even" role="row">
+	<td class="column-1">Jammu &amp; Kashmir</td><td class="column-2">Kupwara</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-237 odd" role="row">
+	<td class="column-1">Jammu &amp; Kashmir</td><td class="column-2">Poonch</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-238 even" role="row">
+	<td class="column-1">Jammu &amp; Kashmir</td><td class="column-2">Pulwama</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-239 odd" role="row">
+	<td class="column-1">Jammu &amp; Kashmir</td><td class="column-2">Rajouri</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-240 even" role="row">
+	<td class="column-1">Jammu &amp; Kashmir</td><td class="column-2">Ramban</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-241 odd" role="row">
+	<td class="column-1">Jammu &amp; Kashmir</td><td class="column-2">Reasi</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-242 even" role="row">
+	<td class="column-1">Jammu &amp; Kashmir</td><td class="column-2">Samba</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-243 odd" role="row">
+	<td class="column-1">Jammu &amp; Kashmir</td><td class="column-2">Shopian</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-244 even" role="row">
+	<td class="column-1">Jammu &amp; Kashmir</td><td class="column-2">Srinagar</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-245 odd" role="row">
+	<td class="column-1">Jammu &amp; Kashmir</td><td class="column-2">Udhampur</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-246 even" role="row">
+	<td class="column-1">Jharkand</td><td class="column-2">Bokaro</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-247 odd" role="row">
+	<td class="column-1">Jharkand</td><td class="column-2">Chatra</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-248 even" role="row">
+	<td class="column-1">Jharkand</td><td class="column-2">Deoghar</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-249 odd" role="row">
+	<td class="column-1">Jharkand</td><td class="column-2">Dhanbad</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-250 even" role="row">
+	<td class="column-1">Jharkand</td><td class="column-2">Dumka</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-251 odd" role="row">
+	<td class="column-1">Jharkand</td><td class="column-2">East Singhbhum</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-252 even" role="row">
+	<td class="column-1">Jharkand</td><td class="column-2">Garhwa</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-253 odd" role="row">
+	<td class="column-1">Jharkand</td><td class="column-2">Giridih</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-254 even" role="row">
+	<td class="column-1">Jharkand</td><td class="column-2">Godda</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-255 odd" role="row">
+	<td class="column-1">Jharkand</td><td class="column-2">Gumla</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-256 even" role="row">
+	<td class="column-1">Jharkand</td><td class="column-2">Hazaribagh</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-257 odd" role="row">
+	<td class="column-1">Jharkand</td><td class="column-2">Jamtara</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-258 even" role="row">
+	<td class="column-1">Jharkand</td><td class="column-2">Khunti</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-259 odd" role="row">
+	<td class="column-1">Jharkand</td><td class="column-2">Kodarma</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-260 even" role="row">
+	<td class="column-1">Jharkand</td><td class="column-2">Latehar</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-261 odd" role="row">
+	<td class="column-1">Jharkand</td><td class="column-2">Lohardaga</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-262 even" role="row">
+	<td class="column-1">Jharkand</td><td class="column-2">Pakaur</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-263 odd" role="row">
+	<td class="column-1">Jharkand</td><td class="column-2">Palamu</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-264 even" role="row">
+	<td class="column-1">Jharkand</td><td class="column-2">Ramgarh</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-265 odd" role="row">
+	<td class="column-1">Jharkand</td><td class="column-2">Ranchi</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-266 even" role="row">
+	<td class="column-1">Jharkand</td><td class="column-2">Sahibganj</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-267 odd" role="row">
+	<td class="column-1">Jharkand</td><td class="column-2">Seraikella</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-268 even" role="row">
+	<td class="column-1">Jharkand</td><td class="column-2">Simdega</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-269 odd" role="row">
+	<td class="column-1">Jharkand</td><td class="column-2">West Singhbhum</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-270 even" role="row">
+	<td class="column-1">Karnataka</td><td class="column-2">Bagalkot</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-271 odd" role="row">
+	<td class="column-1">Karnataka</td><td class="column-2">Ballari</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-272 even" role="row">
+	<td class="column-1">Karnataka</td><td class="column-2">Belgaum</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-273 odd" role="row">
+	<td class="column-1">Karnataka</td><td class="column-2">Bangalore Rural</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-274 even" role="row">
+	<td class="column-1">Karnataka</td><td class="column-2">Bangalore Urban</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-275 odd" role="row">
+	<td class="column-1">Karnataka</td><td class="column-2">Bidar</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-276 even" role="row">
+	<td class="column-1">Karnataka</td><td class="column-2">Chamarajanagar</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-277 odd" role="row">
+	<td class="column-1">Karnataka</td><td class="column-2">Chikkaballapur</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-278 even" role="row">
+	<td class="column-1">Karnataka</td><td class="column-2">Chikkamagaluru</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-279 odd" role="row">
+	<td class="column-1">Karnataka</td><td class="column-2">Chitradurga</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-280 even" role="row">
+	<td class="column-1">Karnataka</td><td class="column-2">Dakshina Kannada</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-281 odd" role="row">
+	<td class="column-1">Karnataka</td><td class="column-2">Davanagere</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-282 even" role="row">
+	<td class="column-1">Karnataka</td><td class="column-2">Dharwad</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-283 odd" role="row">
+	<td class="column-1">Karnataka</td><td class="column-2">Gadag</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-284 even" role="row">
+	<td class="column-1">Karnataka</td><td class="column-2">Gulbarga</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-285 odd" role="row">
+	<td class="column-1">Karnataka</td><td class="column-2">Hassan</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-286 even" role="row">
+	<td class="column-1">Karnataka</td><td class="column-2">Haveri</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-287 odd" role="row">
+	<td class="column-1">Karnataka</td><td class="column-2">Kodagu</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-288 even" role="row">
+	<td class="column-1">Karnataka</td><td class="column-2">Kolar</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-289 odd" role="row">
+	<td class="column-1">Karnataka</td><td class="column-2">Koppal</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-290 even" role="row">
+	<td class="column-1">Karnataka</td><td class="column-2">Mandya</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-291 odd" role="row">
+	<td class="column-1">Karnataka</td><td class="column-2">Mysuru</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-292 even" role="row">
+	<td class="column-1">Karnataka</td><td class="column-2">Raichur</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-293 odd" role="row">
+	<td class="column-1">Karnataka</td><td class="column-2">Ramanagara</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-294 even" role="row">
+	<td class="column-1">Karnataka</td><td class="column-2">Shimoga</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-295 odd" role="row">
+	<td class="column-1">Karnataka</td><td class="column-2">Tumakuru</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-296 even" role="row">
+	<td class="column-1">Karnataka</td><td class="column-2">Udupi</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-297 odd" role="row">
+	<td class="column-1">Karnataka</td><td class="column-2">Uttara Kannada</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-298 even" role="row">
+	<td class="column-1">Karnataka</td><td class="column-2">Vijayapura</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-299 odd" role="row">
+	<td class="column-1">Karnataka</td><td class="column-2">Yadgir</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-300 even" role="row">
+	<td class="column-1">Kerala</td><td class="column-2">Alappuzha</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-301 odd" role="row">
+	<td class="column-1">Kerala</td><td class="column-2">Ernakulam</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-302 even" role="row">
+	<td class="column-1">Kerala</td><td class="column-2">Idukki</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-303 odd" role="row">
+	<td class="column-1">Kerala</td><td class="column-2">Kannur</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-304 even" role="row">
+	<td class="column-1">Kerala</td><td class="column-2">Kasaragod</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-305 odd" role="row">
+	<td class="column-1">Kerala</td><td class="column-2">Kollam</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-306 even" role="row">
+	<td class="column-1">Kerala</td><td class="column-2">Kottayam</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-307 odd" role="row">
+	<td class="column-1">Kerala</td><td class="column-2">Kozhikode</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-308 even" role="row">
+	<td class="column-1">Kerala</td><td class="column-2">Malappuram</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-309 odd" role="row">
+	<td class="column-1">Kerala</td><td class="column-2">Palakkad</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-310 even" role="row">
+	<td class="column-1">Kerala</td><td class="column-2">Pathanamthitta</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-311 odd" role="row">
+	<td class="column-1">Kerala</td><td class="column-2">Thrissur</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-312 even" role="row">
+	<td class="column-1">Kerala</td><td class="column-2">Thiruvananthapuram</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-313 odd" role="row">
+	<td class="column-1">Kerala</td><td class="column-2">Wayanad</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-314 even" role="row">
+	<td class="column-1">Ladakh</td><td class="column-2">Kargil</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-315 odd" role="row">
+	<td class="column-1">Ladakh</td><td class="column-2">Leh</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-316 even" role="row">
+	<td class="column-1">Lakshadweep</td><td class="column-2">Lakshadweep</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-317 odd" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Agar Malwa</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-318 even" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Alirajpur</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-319 odd" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Anuppur</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-320 even" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Ashok Nagar</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-321 odd" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Balaghat</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-322 even" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Barwani</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-323 odd" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Betul</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-324 even" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Bhind</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-325 odd" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Bhopal Uttar</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-326 even" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Burhanpur</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-327 odd" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Chachaura-Binaganj</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-328 even" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Chhatarpur</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-329 odd" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Chhindwara</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-330 even" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Damoh</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-331 odd" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Datia</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-332 even" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Dewas</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-333 odd" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Dhar</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-334 even" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Dindori</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-335 odd" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Guna</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-336 even" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Gwalior</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-337 odd" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Harda</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-338 even" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Hoshangabad</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-339 odd" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Indore</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-340 even" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Jabalpur</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-341 odd" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Jhabua</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-342 even" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Katni</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-343 odd" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Khandwa</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-344 even" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Khargone</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-345 odd" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Maihar</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-346 even" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Mandla</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-347 odd" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Mandsour</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-348 even" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Morena</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-349 odd" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Narsinghpur</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-350 even" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Nagda</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-351 odd" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Neemuch</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-352 even" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Niwari</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-353 odd" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Panna</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-354 even" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Raisen</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-355 odd" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Rajgarh</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-356 even" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Ratlam</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-357 odd" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Rewa</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-358 even" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Sagar</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-359 odd" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Satna</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-360 even" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Sehore</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-361 odd" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Seoni</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-362 even" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Shahdol</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-363 odd" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Shajapur</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-364 even" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Sheopur</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-365 odd" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Shivpuri</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-366 even" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Sidhi</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-367 odd" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Singrauli</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-368 even" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Tikamgarh</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-369 odd" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Ujjain</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-370 even" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Umaria</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-371 odd" role="row">
+	<td class="column-1">Madhya Pradesh</td><td class="column-2">Vidisha</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-372 even" role="row">
+	<td class="column-1">Maharashtra</td><td class="column-2">Ahmednagar</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-373 odd" role="row">
+	<td class="column-1">Maharashtra</td><td class="column-2">Akola</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-374 even" role="row">
+	<td class="column-1">Maharashtra</td><td class="column-2">Amravati</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-375 odd" role="row">
+	<td class="column-1">Maharashtra</td><td class="column-2">Aurangabad</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-376 even" role="row">
+	<td class="column-1">Maharashtra</td><td class="column-2">Beed</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-377 odd" role="row">
+	<td class="column-1">Maharashtra</td><td class="column-2">Bhandara</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-378 even" role="row">
+	<td class="column-1">Maharashtra</td><td class="column-2">Buldhana</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-379 odd" role="row">
+	<td class="column-1">Maharashtra</td><td class="column-2">Chandrapur</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-380 even" role="row">
+	<td class="column-1">Maharashtra</td><td class="column-2">Dhule</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-381 odd" role="row">
+	<td class="column-1">Maharashtra</td><td class="column-2">Gadchiroli</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-382 even" role="row">
+	<td class="column-1">Maharashtra</td><td class="column-2">Gondiya</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-383 odd" role="row">
+	<td class="column-1">Maharashtra</td><td class="column-2">Hingoli</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-384 even" role="row">
+	<td class="column-1">Maharashtra</td><td class="column-2">Jalgaon</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-385 odd" role="row">
+	<td class="column-1">Maharashtra</td><td class="column-2">Jalna</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-386 even" role="row">
+	<td class="column-1">Maharashtra</td><td class="column-2">Kolhapur</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-387 odd" role="row">
+	<td class="column-1">Maharashtra</td><td class="column-2">Latur City</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-388 even" role="row">
+	<td class="column-1">Maharashtra</td><td class="column-2">Mumbai City</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-389 odd" role="row">
+	<td class="column-1">Maharashtra</td><td class="column-2">Mumbai suburban</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-390 even" role="row">
+	<td class="column-1">Maharashtra</td><td class="column-2">Nanded</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-391 odd" role="row">
+	<td class="column-1">Maharashtra</td><td class="column-2">Nandurbar</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-392 even" role="row">
+	<td class="column-1">Maharashtra</td><td class="column-2">Nagpur</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-393 odd" role="row">
+	<td class="column-1">Maharashtra</td><td class="column-2">Nashik</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-394 even" role="row">
+	<td class="column-1">Maharashtra</td><td class="column-2">Osmanabad</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-395 odd" role="row">
+	<td class="column-1">Maharashtra</td><td class="column-2">Palghar</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-396 even" role="row">
+	<td class="column-1">Maharashtra</td><td class="column-2">Parbhani</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-397 odd" role="row">
+	<td class="column-1">Maharashtra</td><td class="column-2">Pune</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-398 even" role="row">
+	<td class="column-1">Maharashtra</td><td class="column-2">Raigad</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-399 odd" role="row">
+	<td class="column-1">Maharashtra</td><td class="column-2">Ratnagiri</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-400 even" role="row">
+	<td class="column-1">Maharashtra</td><td class="column-2">Sangli</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-401 odd" role="row">
+	<td class="column-1">Maharashtra</td><td class="column-2">Satara</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-402 even" role="row">
+	<td class="column-1">Maharashtra</td><td class="column-2">Sindhudurg</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-403 odd" role="row">
+	<td class="column-1">Maharashtra</td><td class="column-2">Solapur</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-404 even" role="row">
+	<td class="column-1">Maharashtra</td><td class="column-2">Thane</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-405 odd" role="row">
+	<td class="column-1">Maharashtra</td><td class="column-2">Wardha</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-406 even" role="row">
+	<td class="column-1">Maharashtra</td><td class="column-2">Washim</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-407 odd" role="row">
+	<td class="column-1">Maharashtra</td><td class="column-2">Yavatmal</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-408 even" role="row">
+	<td class="column-1">Manipur</td><td class="column-2">Bishenpur</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-409 odd" role="row">
+	<td class="column-1">Manipur</td><td class="column-2">Chandel</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-410 even" role="row">
+	<td class="column-1">Manipur</td><td class="column-2">Churachandpur</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-411 odd" role="row">
+	<td class="column-1">Manipur</td><td class="column-2">Imphal East</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-412 even" role="row">
+	<td class="column-1">Manipur</td><td class="column-2">Imphal West</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-413 odd" role="row">
+	<td class="column-1">Manipur</td><td class="column-2">Jiribam</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-414 even" role="row">
+	<td class="column-1">Manipur</td><td class="column-2">Kakching</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-415 odd" role="row">
+	<td class="column-1">Manipur</td><td class="column-2">Kamjong</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-416 even" role="row">
+	<td class="column-1">Manipur</td><td class="column-2">Kangpokpi</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-417 odd" role="row">
+	<td class="column-1">Manipur</td><td class="column-2">Noney</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-418 even" role="row">
+	<td class="column-1">Manipur</td><td class="column-2">Pherzawl</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-419 odd" role="row">
+	<td class="column-1">Manipur</td><td class="column-2">Senapati</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-420 even" role="row">
+	<td class="column-1">Manipur</td><td class="column-2">Tamenglong</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-421 odd" role="row">
+	<td class="column-1">Manipur</td><td class="column-2">Tengnoupal</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-422 even" role="row">
+	<td class="column-1">Manipur</td><td class="column-2">Thoubal</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-423 odd" role="row">
+	<td class="column-1">Manipur</td><td class="column-2">Ukhrul</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-424 even" role="row">
+	<td class="column-1">Meghalaya</td><td class="column-2">East Garo Hills</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-425 odd" role="row">
+	<td class="column-1">Meghalaya</td><td class="column-2">East Khasi Hills</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-426 even" role="row">
+	<td class="column-1">Meghalaya</td><td class="column-2">East Jaintia Hills</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-427 odd" role="row">
+	<td class="column-1">Meghalaya</td><td class="column-2">North Garo Hills</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-428 even" role="row">
+	<td class="column-1">Meghalaya</td><td class="column-2">Ri Bhoi</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-429 odd" role="row">
+	<td class="column-1">Meghalaya</td><td class="column-2">South Garo Hills</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-430 even" role="row">
+	<td class="column-1">Meghalaya</td><td class="column-2">South West Garo Hills</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-431 odd" role="row">
+	<td class="column-1">Meghalaya</td><td class="column-2">South West Khasi Hills</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-432 even" role="row">
+	<td class="column-1">Meghalaya</td><td class="column-2">West Jaintia Hills</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-433 odd" role="row">
+	<td class="column-1">Meghalaya</td><td class="column-2">West Garo Hills</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-434 even" role="row">
+	<td class="column-1">Meghalaya</td><td class="column-2">West Khasi Hills</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-435 odd" role="row">
+	<td class="column-1">Mizoram</td><td class="column-2">Aizawl</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-436 even" role="row">
+	<td class="column-1">Mizoram</td><td class="column-2">Champhai</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-437 odd" role="row">
+	<td class="column-1">Mizoram</td><td class="column-2">Kolasib</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-438 even" role="row">
+	<td class="column-1">Mizoram</td><td class="column-2">Lawngtlai</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-439 odd" role="row">
+	<td class="column-1">Mizoram</td><td class="column-2">Lunglei</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-440 even" role="row">
+	<td class="column-1">Mizoram</td><td class="column-2">Mamit</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-441 odd" role="row">
+	<td class="column-1">Mizoram</td><td class="column-2">Saiha</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-442 even" role="row">
+	<td class="column-1">Mizoram</td><td class="column-2">Serchhip</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-443 odd" role="row">
+	<td class="column-1">Nagaland</td><td class="column-2">Dimapur</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-444 even" role="row">
+	<td class="column-1">Nagaland</td><td class="column-2">Kiphire</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-445 odd" role="row">
+	<td class="column-1">Nagaland</td><td class="column-2">Kohima</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-446 even" role="row">
+	<td class="column-1">Nagaland</td><td class="column-2">Longleng</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-447 odd" role="row">
+	<td class="column-1">Nagaland</td><td class="column-2">Mokokchung</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-448 even" role="row">
+	<td class="column-1">Nagaland</td><td class="column-2">Mon</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-449 odd" role="row">
+	<td class="column-1">Nagaland</td><td class="column-2">Noklak</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-450 even" role="row">
+	<td class="column-1">Nagaland</td><td class="column-2">Peren</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-451 odd" role="row">
+	<td class="column-1">Nagaland</td><td class="column-2">Phek</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-452 even" role="row">
+	<td class="column-1">Nagaland</td><td class="column-2">Tuensang</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-453 odd" role="row">
+	<td class="column-1">Nagaland</td><td class="column-2">Wokha</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-454 even" role="row">
+	<td class="column-1">Nagaland</td><td class="column-2">Zunheboto</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-455 odd" role="row">
+	<td class="column-1">Odisha</td><td class="column-2">Angul</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-456 even" role="row">
+	<td class="column-1">Odisha</td><td class="column-2">Boudh</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-457 odd" role="row">
+	<td class="column-1">Odisha</td><td class="column-2">Bhadrak</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-458 even" role="row">
+	<td class="column-1">Odisha</td><td class="column-2">Balangir</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-459 odd" role="row">
+	<td class="column-1">Odisha</td><td class="column-2">Bargarh</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-460 even" role="row">
+	<td class="column-1">Odisha</td><td class="column-2">Balasore</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-461 odd" role="row">
+	<td class="column-1">Odisha</td><td class="column-2">Cuttack</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-462 even" role="row">
+	<td class="column-1">Odisha</td><td class="column-2">Debagarh (Deogarh)</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-463 odd" role="row">
+	<td class="column-1">Odisha</td><td class="column-2">Dhenkanal</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-464 even" role="row">
+	<td class="column-1">Odisha</td><td class="column-2">Ganjam</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-465 odd" role="row">
+	<td class="column-1">Odisha</td><td class="column-2">Gajapati</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-466 even" role="row">
+	<td class="column-1">Odisha</td><td class="column-2">Jharsuguda</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-467 odd" role="row">
+	<td class="column-1">Odisha</td><td class="column-2">Jajpur</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-468 even" role="row">
+	<td class="column-1">Odisha</td><td class="column-2">Jagatsinghpur</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-469 odd" role="row">
+	<td class="column-1">Odisha</td><td class="column-2">Khordha</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-470 even" role="row">
+	<td class="column-1">Odisha</td><td class="column-2">Kendujhar (Keonjhar)</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-471 odd" role="row">
+	<td class="column-1">Odisha</td><td class="column-2">Kalahandi</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-472 even" role="row">
+	<td class="column-1">Odisha</td><td class="column-2">Kandhamal</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-473 odd" role="row">
+	<td class="column-1">Odisha</td><td class="column-2">Koraput</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-474 even" role="row">
+	<td class="column-1">Odisha</td><td class="column-2">Kendrapara</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-475 odd" role="row">
+	<td class="column-1">Odisha</td><td class="column-2">Malkangiri</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-476 even" role="row">
+	<td class="column-1">Odisha</td><td class="column-2">Mayurbhanj</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-477 odd" role="row">
+	<td class="column-1">Odisha</td><td class="column-2">Nabarangpur</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-478 even" role="row">
+	<td class="column-1">Odisha</td><td class="column-2">Nuapada</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-479 odd" role="row">
+	<td class="column-1">Odisha</td><td class="column-2">Nayagarh</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-480 even" role="row">
+	<td class="column-1">Odisha</td><td class="column-2">Puri</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-481 odd" role="row">
+	<td class="column-1">Odisha</td><td class="column-2">Rayagada</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-482 even" role="row">
+	<td class="column-1">Odisha</td><td class="column-2">Sambalpur</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-483 odd" role="row">
+	<td class="column-1">Odisha</td><td class="column-2">Subarnapur (Sonepur)</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-484 even" role="row">
+	<td class="column-1">Odisha</td><td class="column-2">Sundargarh</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-485 odd" role="row">
+	<td class="column-1">Puducherry</td><td class="column-2">Karaikal</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-486 even" role="row">
+	<td class="column-1">Puducherry</td><td class="column-2">Mahé</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-487 odd" role="row">
+	<td class="column-1">Puducherry</td><td class="column-2">Pondicherry</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-488 even" role="row">
+	<td class="column-1">Puducherry</td><td class="column-2">Yanam</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-489 odd" role="row">
+	<td class="column-1">Punjab</td><td class="column-2">Amritsar</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-490 even" role="row">
+	<td class="column-1">Punjab</td><td class="column-2">Barnala</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-491 odd" role="row">
+	<td class="column-1">Punjab</td><td class="column-2">Bathinda</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-492 even" role="row">
+	<td class="column-1">Punjab</td><td class="column-2">Firozpur</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-493 odd" role="row">
+	<td class="column-1">Punjab</td><td class="column-2">Faridkot</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-494 even" role="row">
+	<td class="column-1">Punjab</td><td class="column-2">Fatehgarh Sahib</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-495 odd" role="row">
+	<td class="column-1">Punjab</td><td class="column-2">Fazilka</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-496 even" role="row">
+	<td class="column-1">Punjab</td><td class="column-2">Gurdaspur</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-497 odd" role="row">
+	<td class="column-1">Punjab</td><td class="column-2">Hoshiarpur</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-498 even" role="row">
+	<td class="column-1">Punjab</td><td class="column-2">Jalandhar</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-499 odd" role="row">
+	<td class="column-1">Punjab</td><td class="column-2">Kapurthala</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-500 even" role="row">
+	<td class="column-1">Punjab</td><td class="column-2">Ludhiana</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-501 odd" role="row">
+	<td class="column-1">Punjab</td><td class="column-2">Mansa</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-502 even" role="row">
+	<td class="column-1">Punjab</td><td class="column-2">Moga</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-503 odd" role="row">
+	<td class="column-1">Punjab</td><td class="column-2">Sri Muktsar Sahib</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-504 even" role="row">
+	<td class="column-1">Punjab</td><td class="column-2">Pathankot</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-505 odd" role="row">
+	<td class="column-1">Punjab</td><td class="column-2">Patiala</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-506 even" role="row">
+	<td class="column-1">Punjab</td><td class="column-2">Rupnagar</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-507 odd" role="row">
+	<td class="column-1">Punjab</td><td class="column-2">Sahibzada Ajit Singh Nagar</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-508 even" role="row">
+	<td class="column-1">Punjab</td><td class="column-2">Sangrur</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-509 odd" role="row">
+	<td class="column-1">Punjab</td><td class="column-2">Shahid Bhagat Singh Nagar</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-510 even" role="row">
+	<td class="column-1">Punjab</td><td class="column-2">Tarn Taran</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-511 odd" role="row">
+	<td class="column-1">Rajasthan</td><td class="column-2">Ajmer</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-512 even" role="row">
+	<td class="column-1">Rajasthan</td><td class="column-2">Alwar</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-513 odd" role="row">
+	<td class="column-1">Rajasthan</td><td class="column-2">Bikaner</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-514 even" role="row">
+	<td class="column-1">Rajasthan</td><td class="column-2">Barmer</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-515 odd" role="row">
+	<td class="column-1">Rajasthan</td><td class="column-2">Banswara</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-516 even" role="row">
+	<td class="column-1">Rajasthan</td><td class="column-2">Bharatpur</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-517 odd" role="row">
+	<td class="column-1">Rajasthan</td><td class="column-2">Baran</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-518 even" role="row">
+	<td class="column-1">Rajasthan</td><td class="column-2">Bundi</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-519 odd" role="row">
+	<td class="column-1">Rajasthan</td><td class="column-2">Bhilwara</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-520 even" role="row">
+	<td class="column-1">Rajasthan</td><td class="column-2">Churu</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-521 odd" role="row">
+	<td class="column-1">Rajasthan</td><td class="column-2">Chittorgarh</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-522 even" role="row">
+	<td class="column-1">Rajasthan</td><td class="column-2">Dausa</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-523 odd" role="row">
+	<td class="column-1">Rajasthan</td><td class="column-2">Dholpur</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-524 even" role="row">
+	<td class="column-1">Rajasthan</td><td class="column-2">Dungarpur</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-525 odd" role="row">
+	<td class="column-1">Rajasthan</td><td class="column-2">Ganganagar</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-526 even" role="row">
+	<td class="column-1">Rajasthan</td><td class="column-2">Hanumangarh</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-527 odd" role="row">
+	<td class="column-1">Rajasthan</td><td class="column-2">Jhunjhunu</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-528 even" role="row">
+	<td class="column-1">Rajasthan</td><td class="column-2">Jalore</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-529 odd" role="row">
+	<td class="column-1">Rajasthan</td><td class="column-2">Jodhpur</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-530 even" role="row">
+	<td class="column-1">Rajasthan</td><td class="column-2">Jaipur</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-531 odd" role="row">
+	<td class="column-1">Rajasthan</td><td class="column-2">Jaisalmer</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-532 even" role="row">
+	<td class="column-1">Rajasthan</td><td class="column-2">Jhalawar</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-533 odd" role="row">
+	<td class="column-1">Rajasthan</td><td class="column-2">Karauli</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-534 even" role="row">
+	<td class="column-1">Rajasthan</td><td class="column-2">Kota</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-535 odd" role="row">
+	<td class="column-1">Rajasthan</td><td class="column-2">Nagaur</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-536 even" role="row">
+	<td class="column-1">Rajasthan</td><td class="column-2">Pali</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-537 odd" role="row">
+	<td class="column-1">Rajasthan</td><td class="column-2">Pratapgarh</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-538 even" role="row">
+	<td class="column-1">Rajasthan</td><td class="column-2">Rajsamand</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-539 odd" role="row">
+	<td class="column-1">Rajasthan</td><td class="column-2">Sikar</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-540 even" role="row">
+	<td class="column-1">Rajasthan</td><td class="column-2">Sawai Madhopur</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-541 odd" role="row">
+	<td class="column-1">Rajasthan</td><td class="column-2">Sirohi</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-542 even" role="row">
+	<td class="column-1">Rajasthan</td><td class="column-2">Tonk</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-543 odd" role="row">
+	<td class="column-1">Rajasthan</td><td class="column-2">Udaipur</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-544 even" role="row">
+	<td class="column-1">Sikkim</td><td class="column-2">East Sikkim</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-545 odd" role="row">
+	<td class="column-1">Sikkim</td><td class="column-2">North Sikkim</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-546 even" role="row">
+	<td class="column-1">Sikkim</td><td class="column-2">South Sikkim</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-547 odd" role="row">
+	<td class="column-1">Sikkim</td><td class="column-2">West Sikkim</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-548 even" role="row">
+	<td class="column-1">Tamil Nadu</td><td class="column-2">Ariyalur</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-549 odd" role="row">
+	<td class="column-1">Tamil Nadu</td><td class="column-2">Chengalpattu</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-550 even" role="row">
+	<td class="column-1">Tamil Nadu</td><td class="column-2">Chennai</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-551 odd" role="row">
+	<td class="column-1">Tamil Nadu</td><td class="column-2">Coimbatore</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-552 even" role="row">
+	<td class="column-1">Tamil Nadu</td><td class="column-2">Cuddalore</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-553 odd" role="row">
+	<td class="column-1">Tamil Nadu</td><td class="column-2">Dharmapuri</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-554 even" role="row">
+	<td class="column-1">Tamil Nadu</td><td class="column-2">Dindigul</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-555 odd" role="row">
+	<td class="column-1">Tamil Nadu</td><td class="column-2">Erode</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-556 even" role="row">
+	<td class="column-1">Tamil Nadu</td><td class="column-2">Kallakurichi</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-557 odd" role="row">
+	<td class="column-1">Tamil Nadu</td><td class="column-2">Kancheepuram</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-558 even" role="row">
+	<td class="column-1">Tamil Nadu</td><td class="column-2">Kanniyakumari</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-559 odd" role="row">
+	<td class="column-1">Tamil Nadu</td><td class="column-2">Karur</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-560 even" role="row">
+	<td class="column-1">Tamil Nadu</td><td class="column-2">Krishnagiri</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-561 odd" role="row">
+	<td class="column-1">Tamil Nadu</td><td class="column-2">Madurai</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-562 even" role="row">
+	<td class="column-1">Tamil Nadu</td><td class="column-2">Mayiladuthurai</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-563 odd" role="row">
+	<td class="column-1">Tamil Nadu</td><td class="column-2">Nagapattinam</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-564 even" role="row">
+	<td class="column-1">Tamil Nadu</td><td class="column-2">Nilgiris</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-565 odd" role="row">
+	<td class="column-1">Tamil Nadu</td><td class="column-2">Namakkal</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-566 even" role="row">
+	<td class="column-1">Tamil Nadu</td><td class="column-2">Perambur</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-567 odd" role="row">
+	<td class="column-1">Tamil Nadu</td><td class="column-2">Pudukkottai</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-568 even" role="row">
+	<td class="column-1">Tamil Nadu</td><td class="column-2">Ramanathapuram</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-569 odd" role="row">
+	<td class="column-1">Tamil Nadu</td><td class="column-2">Ranipet</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-570 even" role="row">
+	<td class="column-1">Tamil Nadu</td><td class="column-2">Salem South</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-571 odd" role="row">
+	<td class="column-1">Tamil Nadu</td><td class="column-2">Sivaganga</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-572 even" role="row">
+	<td class="column-1">Tamil Nadu</td><td class="column-2">Tenkasi</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-573 odd" role="row">
+	<td class="column-1">Tamil Nadu</td><td class="column-2">Tirupur</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-574 even" role="row">
+	<td class="column-1">Tamil Nadu</td><td class="column-2">Tiruchirappalli</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-575 odd" role="row">
+	<td class="column-1">Tamil Nadu</td><td class="column-2">Theni</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-576 even" role="row">
+	<td class="column-1">Tamil Nadu</td><td class="column-2">Tirunelveli</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-577 odd" role="row">
+	<td class="column-1">Tamil Nadu</td><td class="column-2">Thanjavur</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-578 even" role="row">
+	<td class="column-1">Tamil Nadu</td><td class="column-2">Thoothukkudi</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-579 odd" role="row">
+	<td class="column-1">Tamil Nadu</td><td class="column-2">Tiruppattur</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-580 even" role="row">
+	<td class="column-1">Tamil Nadu</td><td class="column-2">Tiruvallur</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-581 odd" role="row">
+	<td class="column-1">Tamil Nadu</td><td class="column-2">Tiruvarur</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-582 even" role="row">
+	<td class="column-1">Tamil Nadu</td><td class="column-2">Tiruvannamalai</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-583 odd" role="row">
+	<td class="column-1">Tamil Nadu</td><td class="column-2">Vellore</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-584 even" role="row">
+	<td class="column-1">Tamil Nadu</td><td class="column-2">Viluppuram</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-585 odd" role="row">
+	<td class="column-1">Tamil Nadu</td><td class="column-2">Virudhunagar</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-586 even" role="row">
+	<td class="column-1">Telangana</td><td class="column-2">Adilabad</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-587 odd" role="row">
+	<td class="column-1">Telangana</td><td class="column-2">Komaram Bheem</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-588 even" role="row">
+	<td class="column-1">Telangana</td><td class="column-2">Bhadradri Kothagudem</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-589 odd" role="row">
+	<td class="column-1">Telangana</td><td class="column-2">Hyderabad</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-590 even" role="row">
+	<td class="column-1">Telangana</td><td class="column-2">Jagtial</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-591 odd" role="row">
+	<td class="column-1">Telangana</td><td class="column-2">Jangoan</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-592 even" role="row">
+	<td class="column-1">Telangana</td><td class="column-2">Jayashankar Bhupalpally</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-593 odd" role="row">
+	<td class="column-1">Telangana</td><td class="column-2">Jogulamba Gadwal</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-594 even" role="row">
+	<td class="column-1">Telangana</td><td class="column-2">Kamareddy</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-595 odd" role="row">
+	<td class="column-1">Telangana</td><td class="column-2">Karimnagar</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-596 even" role="row">
+	<td class="column-1">Telangana</td><td class="column-2">Khammam</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-597 odd" role="row">
+	<td class="column-1">Telangana</td><td class="column-2">Mahabubabad</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-598 even" role="row">
+	<td class="column-1">Telangana</td><td class="column-2">Mahbubnagar</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-599 odd" role="row">
+	<td class="column-1">Telangana</td><td class="column-2">Mancherial</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-600 even" role="row">
+	<td class="column-1">Telangana</td><td class="column-2">Medak</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-601 odd" role="row">
+	<td class="column-1">Telangana</td><td class="column-2">Medchali</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-602 even" role="row">
+	<td class="column-1">Telangana</td><td class="column-2">Mulug</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-603 odd" role="row">
+	<td class="column-1">Telangana</td><td class="column-2">Nalgonda</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-604 even" role="row">
+	<td class="column-1">Telangana</td><td class="column-2">Narayanpet</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-605 odd" role="row">
+	<td class="column-1">Telangana</td><td class="column-2">Nagarkurnool</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-606 even" role="row">
+	<td class="column-1">Telangana</td><td class="column-2">Nirmal</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-607 odd" role="row">
+	<td class="column-1">Telangana</td><td class="column-2">Nizamabad</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-608 even" role="row">
+	<td class="column-1">Telangana</td><td class="column-2">Peddapalle</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-609 odd" role="row">
+	<td class="column-1">Telangana</td><td class="column-2">Rajanna Sircilla</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-610 even" role="row">
+	<td class="column-1">Telangana</td><td class="column-2">Ranga Reddy</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-611 odd" role="row">
+	<td class="column-1">Telangana</td><td class="column-2">SangaReddy</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-612 even" role="row">
+	<td class="column-1">Telangana</td><td class="column-2">Siddipet</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-613 odd" role="row">
+	<td class="column-1">Telangana</td><td class="column-2">Suryapet</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-614 even" role="row">
+	<td class="column-1">Telangana</td><td class="column-2">Vikarabad</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-615 odd" role="row">
+	<td class="column-1">Telangana</td><td class="column-2">Wanaparthy</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-616 even" role="row">
+	<td class="column-1">Telangana</td><td class="column-2">Warangal (Urban)</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-617 odd" role="row">
+	<td class="column-1">Telangana</td><td class="column-2">Warangal (Rural)</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-618 even" role="row">
+	<td class="column-1">Telangana</td><td class="column-2">Yadadri Bhuvanagiri</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-619 odd" role="row">
+	<td class="column-1">Tripura</td><td class="column-2">Dhalai</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-620 even" role="row">
+	<td class="column-1">Tripura</td><td class="column-2">Gomati</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-621 odd" role="row">
+	<td class="column-1">Tripura</td><td class="column-2">Khowai</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-622 even" role="row">
+	<td class="column-1">Tripura</td><td class="column-2">North Tripura</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-623 odd" role="row">
+	<td class="column-1">Tripura</td><td class="column-2">Sepahijala</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-624 even" role="row">
+	<td class="column-1">Tripura</td><td class="column-2">South Tripura</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-625 odd" role="row">
+	<td class="column-1">Tripura</td><td class="column-2">Unokoti</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-626 even" role="row">
+	<td class="column-1">Tripura</td><td class="column-2">West Tripura</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-627 odd" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Agra</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-628 even" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Aligarh</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-629 odd" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Allahabad</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-630 even" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Ambedkar Nagar</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-631 odd" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Amethi</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-632 even" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Amroha</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-633 odd" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Auraiya</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-634 even" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Azamgarh</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-635 odd" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Bagpat</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-636 even" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Bahraich</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-637 odd" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Ballia</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-638 even" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Balrampur</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-639 odd" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Banda</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-640 even" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Barabanki</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-641 odd" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Bareilly</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-642 even" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Basti</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-643 odd" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Bhadohi</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-644 even" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Bijnor</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-645 odd" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Budaun</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-646 even" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Bulandshahr</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-647 odd" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Chandauli</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-648 even" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Chitrakoot</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-649 odd" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Deoria</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-650 even" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Etah</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-651 odd" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Etawah</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-652 even" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Faizabad</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-653 odd" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Farrukhabad</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-654 even" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Fatehpur</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-655 odd" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Firozabad</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-656 even" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Gautam Buddh Nagar</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-657 odd" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Ghaziabad</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-658 even" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Ghazipur</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-659 odd" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Gonda</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-660 even" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Gorakhpur</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-661 odd" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Hamirpur</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-662 even" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Hapur</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-663 odd" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Hardoi</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-664 even" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Hathras</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-665 odd" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Jalaun</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-666 even" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Jaunpur</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-667 odd" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Jhansi</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-668 even" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Kannauj</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-669 odd" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Kanpur Dehat</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-670 even" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Kanpur Nagar</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-671 odd" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Kasganj</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-672 even" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Kaushambi</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-673 odd" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Kushinagar</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-674 even" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Lakhimpur Kheri</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-675 odd" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Lalitpur</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-676 even" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Lucknow</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-677 odd" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Maharajganj</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-678 even" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Mahoba</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-679 odd" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Mainpuri</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-680 even" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Mathura</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-681 odd" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Mau</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-682 even" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Meerut</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-683 odd" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Mirzapur</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-684 even" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Moradabad</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-685 odd" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Muzaffarnagar</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-686 even" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Pilibhit</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-687 odd" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Pratapgarh</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-688 even" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Raebareli</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-689 odd" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Rampur</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-690 even" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Saharanpur</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-691 odd" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Sambhal</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-692 even" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Sant Kabir Nagar</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-693 odd" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Shahjahanpur</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-694 even" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Shamli</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-695 odd" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Shravasti</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-696 even" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Siddharthnagar</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-697 odd" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Sitapur</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-698 even" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Sonbhadra</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-699 odd" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Sultanpur</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-700 even" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Unnao</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-701 odd" role="row">
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Varanasi</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-702 even" role="row">
+	<td class="column-1">Uttarakhand</td><td class="column-2">Almora</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-703 odd" role="row">
+	<td class="column-1">Uttarakhand</td><td class="column-2">Bageshwar</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-704 even" role="row">
+	<td class="column-1">Uttarakhand</td><td class="column-2">Chamoli</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-705 odd" role="row">
+	<td class="column-1">Uttarakhand</td><td class="column-2">Champawat</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-706 even" role="row">
+	<td class="column-1">Uttarakhand</td><td class="column-2">Dehradun</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-707 odd" role="row">
+	<td class="column-1">Uttarakhand</td><td class="column-2">Haridwar</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-708 even" role="row">
+	<td class="column-1">Uttarakhand</td><td class="column-2">Nainital</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-709 odd" role="row">
+	<td class="column-1">Uttarakhand</td><td class="column-2">Pauri</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-710 even" role="row">
+	<td class="column-1">Uttarakhand</td><td class="column-2">Pithoragarh</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-711 odd" role="row">
+	<td class="column-1">Uttarakhand</td><td class="column-2">Rudraprayag</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-712 even" role="row">
+	<td class="column-1">Uttarakhand</td><td class="column-2">Tehri</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-713 odd" role="row">
+	<td class="column-1">Uttarakhand</td><td class="column-2">Udham Singh Nagar</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-714 even" role="row">
+	<td class="column-1">Uttarakhand</td><td class="column-2">Uttarkashi</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-715 odd" role="row">
+	<td class="column-1">West Bengal</td><td class="column-2">Alipurduar</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-716 even" role="row">
+	<td class="column-1">West Bengal</td><td class="column-2">Bankura</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-717 odd" role="row">
+	<td class="column-1">West Bengal</td><td class="column-2">Paschim Bardhaman</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-718 even" role="row">
+	<td class="column-1">West Bengal</td><td class="column-2">Purba Bardhaman</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-719 odd" role="row">
+	<td class="column-1">West Bengal</td><td class="column-2">Birbhum</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-720 even" role="row">
+	<td class="column-1">West Bengal</td><td class="column-2">Cooch Behar</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-721 odd" role="row">
+	<td class="column-1">West Bengal</td><td class="column-2">Dakshin Dinajpur</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-722 even" role="row">
+	<td class="column-1">West Bengal</td><td class="column-2">Darjeeling</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-723 odd" role="row">
+	<td class="column-1">West Bengal</td><td class="column-2">Hooghly</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-724 even" role="row">
+	<td class="column-1">West Bengal</td><td class="column-2">Howrah</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-725 odd" role="row">
+	<td class="column-1">West Bengal</td><td class="column-2">Jalpaiguri</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-726 even" role="row">
+	<td class="column-1">West Bengal</td><td class="column-2">Jhargram</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-727 odd" role="row">
+	<td class="column-1">West Bengal</td><td class="column-2">Kalimpong</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-728 even" role="row">
+	<td class="column-1">West Bengal</td><td class="column-2">Kolkata</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-729 odd" role="row">
+	<td class="column-1">West Bengal</td><td class="column-2">Maldah</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-730 even" role="row">
+	<td class="column-1">West Bengal</td><td class="column-2">Murshidabad</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-731 odd" role="row">
+	<td class="column-1">West Bengal</td><td class="column-2">Nadia</td><td class="column-3">Orange Zone</td>
+</tr><tr class="row-732 even" role="row">
+	<td class="column-1">West Bengal</td><td class="column-2">North 24 Parganas</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-733 odd" role="row">
+	<td class="column-1">West Bengal</td><td class="column-2">Paschim Medinipur</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-734 even" role="row">
+	<td class="column-1">West Bengal</td><td class="column-2">Purba Medinipur</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-735 odd" role="row">
+	<td class="column-1">West Bengal</td><td class="column-2">Purulia</td><td class="column-3">Green Zone</td>
+</tr><tr class="row-736 even" role="row">
+	<td class="column-1">West Bengal</td><td class="column-2">South 24 Parganas</td><td class="column-3">Red Zone</td>
+</tr><tr class="row-737 odd" role="row">
+	<td class="column-1">West Bengal</td><td class="column-2">Uttar Dinajpur</td><td class="column-3">Green Zone</td>
+
+*************************************************************************************************
+#https://covidindia.org/zone-restrictions/#
