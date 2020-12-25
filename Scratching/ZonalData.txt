@@ -1,9 +1,9 @@
 </tr><tr class="row-2 even" role="row">
-	<td class="column-1">Andaman &amp; Nicobar Islands</td><td class="column-2">Nicobar</td><td class="column-3">Green Zone</td>
+	<td class="column-1">Andaman & Nicobar Islands</td><td class="column-2">Nicobar</td><td class="column-3">Green Zone</td>
 </tr><tr class="row-3 odd" role="row">
-	<td class="column-1">Andaman &amp; Nicobar Islands</td><td class="column-2">North &amp; Middle Andaman</td><td class="column-3">Green Zone</td>
+	<td class="column-1">Andaman & Nicobar Islands</td><td class="column-2">North & Middle Andaman</td><td class="column-3">Green Zone</td>
 </tr><tr class="row-4 even" role="row">
-	<td class="column-1">Andaman &amp; Nicobar Islands</td><td class="column-2">South Andaman</td><td class="column-3">Red Zone</td>
+	<td class="column-1">Andaman & Nicobar Islands</td><td class="column-2">South Andaman</td><td class="column-3">Red Zone</td>
 </tr><tr class="row-5 odd" role="row">
 	<td class="column-1">Andhra Pradesh</td><td class="column-2">Anantapur</td><td class="column-3">Orange Zone</td>
 </tr><tr class="row-6 even" role="row">
