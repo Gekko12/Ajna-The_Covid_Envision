@@ -1,0 +1,368 @@
+Andaman and Nicobar Islands | North and Middle Andaman | Green Zone
+Andhra Pradesh | Anantapur | Orange Zone
+Andhra Pradesh | East Godavari | Orange Zone
+Andhra Pradesh | Kadapa | Orange Zone
+Andhra Pradesh | Kurnool | Red Zone
+Andhra Pradesh | Sri Potti Sriramulu Nellore | Red Zone
+Andhra Pradesh | Visakhapatnam | Orange Zone
+Andhra Pradesh | West Godavari | Orange Zone
+Arunachal Pradesh | Changlang South | Green Zone
+Arunachal Pradesh | East Siang | Green Zone
+Arunachal Pradesh | Kra Daadi | Green Zone
+Arunachal Pradesh | Lepa Rada | Green Zone
+Arunachal Pradesh | Longding | Green Zone
+Arunachal Pradesh | Lower Siang | Green Zone
+Arunachal Pradesh | Namsai | Green Zone
+Arunachal Pradesh | Papum Pare | Green Zone
+Arunachal Pradesh | Siang | Green Zone
+Arunachal Pradesh | Tirap | Green Zone
+Arunachal Pradesh | Upper Siang | Green Zone
+Arunachal Pradesh | West Kameng | Green Zone
+Assam | Baksa | Green Zone
+Assam | Bishwanath | Green Zone
+Assam | Cachar | Green Zone
+Assam | Chirang | Green Zone
+Assam | Dhemaji | Green Zone
+Assam | Dibrugarh | Green Zone
+Assam | Goalpara | Orange Zone
+Assam | Hailakandi | Green Zone
+Assam | Jorhat | Green Zone
+Assam | Kamrup Metropolitan | Green Zone
+Assam | Karimganj | Green Zone
+Assam | Lakhimpur | Green Zone
+Assam | Marigaon | Orange Zone
+Assam | Nalbari | Green Zone
+Assam | Salmara South | Green Zone
+Assam | Tinsukia | Green Zone
+Assam | West Karbi Anglong | Green Zone
+Bihar | Arwal | Orange Zone
+Bihar | Banka | Orange Zone
+Bihar | Bhagalpur | Orange Zone
+Bihar | Buxar | Red Zone
+Bihar | East Champaran | Orange Zone
+Bihar | Gopalganj | Orange Zone
+Bihar | Jehanabad | Orange Zone
+Bihar | Katihar | Green Zone
+Bihar | Kishanganj | Green Zone
+Bihar | Madhepura | Orange Zone
+Bihar | Munger | Red Zone
+Bihar | Nalanda | Orange Zone
+Bihar | Patna Sahib | Red Zone
+Bihar | Rohtas | Red Zone
+Bihar | Samastipur | Green Zone
+Bihar | Sheikhpura | Green Zone
+Bihar | Sitamarhi | Green Zone
+Bihar | Supaul | Green Zone
+Bihar | West Champaran | Green Zone
+Chattisgarh | Balod | Green Zone
+Chattisgarh | Balrampur | Green Zone
+Chattisgarh | Bemetara | Green Zone
+Chattisgarh | Bilaspur | Green Zone
+Chattisgarh | Dhamtari | Green Zone
+Chattisgarh | Gariaband | Green Zone
+Chattisgarh | Janjgir - Champa | Green Zone
+Chattisgarh | Kabirdham | Green Zone
+Chattisgarh | Kondagaon | Green Zone
+Chattisgarh | Koriya | Green Zone
+Chattisgarh | Mungeli | Green Zone
+Chattisgarh | Raigarh | Green Zone
+Chattisgarh | Rajnandgaon | Green Zone
+Chattisgarh | Surajpur | Green Zone
+Dadra and Nagar Haveli and Daman and Diu | Daman | Green Zone
+Dadra and Nagar Haveli and Daman and Diu | Dadra and Nagar Haveli | Green Zone
+Delhi | East Delhi | Red Zone
+Delhi | North Delhi | Red Zone
+Delhi | North West Delhi | Red Zone
+Delhi | South Delhi | Red Zone
+Delhi | South West Delhi | Red Zone
+Goa | North Goa | Green Zone
+Gujarat | Ahmedabad | Red Zone
+Gujarat | Anand | Red Zone
+Gujarat | Banaskantha | Red Zone
+Gujarat | Bhavnagar Rural | Red Zone
+Gujarat | Chhota Udepur | Orange Zone
+Gujarat | Dangs | Orange Zone
+Gujarat | Gandhinagar | Red Zone
+Gujarat | Jamnagar | Orange Zone
+Gujarat | Kheda | Orange Zone
+Gujarat | Mahisagar | Orange Zone
+Gujarat | Morbi | Green Zone
+Gujarat | Navsari | Orange Zone
+Gujarat | Patan | Orange Zone
+Gujarat | Rajkot | Orange Zone
+Gujarat | Surat | Red Zone
+Gujarat | Tapi | Orange Zone
+Gujarat | Valsad | Orange Zone
+Haryana | Bhiwani | Orange Zone
+Haryana | Faridabad | Red Zone
+Haryana | Gurugram | Orange Zone
+Haryana | Jhajjar | Orange Zone
+Haryana | Kaithal | Orange Zone
+Haryana | Kurukshetra | Orange Zone
+Haryana | Nuh | Orange Zone
+Haryana | Panchkula | Orange Zone
+Haryana | Rewari | Green Zone
+Haryana | Sirsa | Orange Zone
+Haryana | Yamunanagar | Orange Zone
+Himachal Pradesh | Chamba | Orange Zone
+Himachal Pradesh | Kangra | Orange Zone
+Himachal Pradesh | Kullu | Green Zone
+Himachal Pradesh | Mandi | Green Zone
+Himachal Pradesh | Sirmaur | Orange Zone
+Himachal Pradesh | Una | Orange Zone
+Jammu and Kashmir | Bandipora | Red Zone
+Jammu and Kashmir | Badgam | Orange Zone
+Jammu and Kashmir | Ganderbal | Orange Zone
+Jammu and Kashmir | Kathua | Orange Zone
+Jammu and Kashmir | Kulgam | Orange Zone
+Jammu and Kashmir | Poonch | Green Zone
+Jammu and Kashmir | Rajouri | Orange Zone
+Jammu and Kashmir | Reasi | Orange Zone
+Jammu and Kashmir | Shopian | Red Zone
+Jammu and Kashmir | Udhampur | Orange Zone
+Jharkand | Chatra | Green Zone
+Jharkand | Dhanbad | Orange Zone
+Jharkand | East Singhbhum | Green Zone
+Jharkand | Giridih | Orange Zone
+Jharkand | Gumla | Green Zone
+Jharkand | Jamtara | Orange Zone
+Jharkand | Kodarma | Orange Zone
+Jharkand | Lohardaga | Green Zone
+Jharkand | Palamu | Green Zone
+Jharkand | Ranchi | Red Zone
+Jharkand | Seraikella | Green Zone
+Jharkand | West Singhbhum | Green Zone
+Karnataka | Ballari | Orange Zone
+Karnataka | Bangalore Rural | Red Zone
+Karnataka | Bidar | Orange Zone
+Karnataka | Chikkaballapur | Orange Zone
+Karnataka | Chitradurga | Green Zone
+Karnataka | Davanagere | Green Zone
+Karnataka | Gadag | Orange Zone
+Karnataka | Hassan | Green Zone
+Karnataka | Kodagu | Green Zone
+Karnataka | Koppal | Green Zone
+Karnataka | Mysuru | Red Zone
+Karnataka | Ramanagara | Green Zone
+Karnataka | Tumakuru | Orange Zone
+Karnataka | Uttara Kannada | Orange Zone
+Karnataka | Yadgir | Green Zone
+Kerala | Ernakulam | Green Zone
+Kerala | Kannur | Red Zone
+Kerala | Kollam | Orange Zone
+Kerala | Kozhikode | Orange Zone
+Kerala | Palakkad | Orange Zone
+Kerala | Thrissur | Orange Zone
+Kerala | Wayanad | Green Zone
+Ladakh | Leh | Orange Zone
+Madhya Pradesh | Agar Malwa | Orange Zone
+Madhya Pradesh | Anuppur | Green Zone
+Madhya Pradesh | Balaghat | Green Zone
+Madhya Pradesh | Betul | Orange Zone
+Madhya Pradesh | Bhopal Uttar | Red Zone
+Madhya Pradesh | Chachaura-Binaganj | Green Zone
+Madhya Pradesh | Chhindwara | Orange Zone
+Madhya Pradesh | Datia | Green Zone
+Madhya Pradesh | Dhar | Red Zone
+Madhya Pradesh | Guna | Green Zone
+Madhya Pradesh | Harda | Orange Zone
+Madhya Pradesh | Indore | Red Zone
+Madhya Pradesh | Jhabua | Green Zone
+Madhya Pradesh | Khandwa | Red Zone
+Madhya Pradesh | Maihar | Green Zone
+Madhya Pradesh | Mandsour | Orange Zone
+Madhya Pradesh | Narsinghpur | Green Zone
+Madhya Pradesh | Neemuch | Green Zone
+Madhya Pradesh | Panna | Green Zone
+Madhya Pradesh | Rajgarh | Green Zone
+Madhya Pradesh | Rewa | Green Zone
+Madhya Pradesh | Satna | Green Zone
+Madhya Pradesh | Seoni | Green Zone
+Madhya Pradesh | Shajapur | Orange Zone
+Madhya Pradesh | Shivpuri | Green Zone
+Madhya Pradesh | Singrauli | Green Zone
+Madhya Pradesh | Ujjain | Red Zone
+Madhya Pradesh | Vidisha | Orange Zone
+Maharashtra | Akola | Red Zone
+Maharashtra | Aurangabad | Red Zone
+Maharashtra | Bhandara | Orange Zone
+Maharashtra | Chandrapur | Orange Zone
+Maharashtra | Gadchiroli | Green Zone
+Maharashtra | Hingoli | Orange Zone
+Maharashtra | Jalna | Orange Zone
+Maharashtra | Latur City | Orange Zone
+Maharashtra | Mumbai suburban | Red Zone
+Maharashtra | Nandurbar | Orange Zone
+Maharashtra | Nashik | Red Zone
+Maharashtra | Palghar | Red Zone
+Maharashtra | Pune | Red Zone
+Maharashtra | Ratnagiri | Orange Zone
+Maharashtra | Satara | Red Zone
+Maharashtra | Solapur | Red Zone
+Maharashtra | Wardha | Green Zone
+Maharashtra | Yavatmal | Red Zone
+Manipur | Chandel | Green Zone
+Manipur | Imphal East | Green Zone
+Manipur | Jiribam | Green Zone
+Manipur | Kamjong | Green Zone
+Manipur | Noney | Green Zone
+Manipur | Senapati | Green Zone
+Manipur | Tengnoupal | Green Zone
+Manipur | Ukhrul | Green Zone
+Meghalaya | East Khasi Hills | Orange Zone
+Meghalaya | North Garo Hills | Green Zone
+Meghalaya | South Garo Hills | Green Zone
+Meghalaya | South West Khasi Hills | Green Zone
+Meghalaya | West Garo Hills | Green Zone
+Mizoram | Aizawl | Green Zone
+Mizoram | Kolasib | Green Zone
+Mizoram | Lunglei | Green Zone
+Mizoram | Saiha | Green Zone
+Nagaland | Dimapur | Green Zone
+Nagaland | Kohima | Green Zone
+Nagaland | Mokokchung | Green Zone
+Nagaland | Noklak | Green Zone
+Nagaland | Phek | Green Zone
+Nagaland | Wokha | Green Zone
+Odisha | Angul | Green Zone
+Odisha | Bhadrak | Red Zone
+Odisha | Bargarh | Green Zone
+Odisha | Cuttack | Green Zone
+Odisha | Dhenkanal | Orange Zone
+Odisha | Gajapati | Green Zone
+Odisha | Jajpur | Red Zone
+Odisha | Khordha | Orange Zone
+Odisha | Kalahandi | Orange Zone
+Odisha | Koraput | Orange Zone
+Odisha | Malkangiri | Green Zone
+Odisha | Nabarangpur | Green Zone
+Odisha | Nayagarh | Green Zone
+Odisha | Rayagada | Green Zone
+Odisha | Subarnapur (Sonepur) | Green Zone
+Puducherry | Karaikal | Green Zone
+Puducherry | Pondicherry | Orange Zone
+Punjab | Amritsar | Red Zone
+Punjab | Bathinda | Green Zone
+Punjab | Faridkot | Orange Zone
+Punjab | Fazilka | Green Zone
+Punjab | Hoshiarpur | Orange Zone
+Punjab | Kapurthala | Orange Zone
+Punjab | Mansa | Orange Zone
+Punjab | Sri Muktsar Sahib | Orange Zone
+Punjab | Patiala | Orange Zone
+Punjab | Sahibzada Ajit Singh Nagar | Orange Zone
+Punjab | Shahid Bhagat Singh Nagar | Orange Zone
+Rajasthan | Ajmer | Red Zone
+Rajasthan | Bikaner | Orange Zone
+Rajasthan | Banswara | Red Zone
+Rajasthan | Baran | Green Zone
+Rajasthan | Bhilwara | Orange Zone
+Rajasthan | Chittorgarh | Orange Zone
+Rajasthan | Dholpur | Orange Zone
+Rajasthan | Ganganagar | Green Zone
+Rajasthan | Jhunjhunu | Orange Zone
+Rajasthan | Jodhpur | Red Zone
+Rajasthan | Jaisalmer | Orange Zone
+Rajasthan | Karauli | Orange Zone
+Rajasthan | Nagaur | Red Zone
+Rajasthan | Pratapgarh | Green Zone
+Rajasthan | Sikar | Orange Zone
+Rajasthan | Sirohi | Green Zone
+Rajasthan | Udaipur | Orange Zone
+Sikkim | North Sikkim | Green Zone
+Sikkim | West Sikkim | Green Zone
+Tamil Nadu | Chengalpattu | Red Zone
+Tamil Nadu | Coimbatore | Orange Zone
+Tamil Nadu | Dharmapuri | Orange Zone
+Tamil Nadu | Erode | Orange Zone
+Tamil Nadu | Kancheepuram | Red Zone
+Tamil Nadu | Karur | Orange Zone
+Tamil Nadu | Madurai | Red Zone
+Tamil Nadu | Nagapattinam | Orange Zone
+Tamil Nadu | Namakkal | Red Zone
+Tamil Nadu | Pudukkottai | Orange Zone
+Tamil Nadu | Ranipet | Red Zone
+Tamil Nadu | Sivaganga | Orange Zone
+Tamil Nadu | Tirupur | Red Zone
+Tamil Nadu | Theni | Orange Zone
+Tamil Nadu | Thanjavur | Red Zone
+Tamil Nadu | Tiruppattur | Orange Zone
+Tamil Nadu | Tiruvarur | Red Zone
+Tamil Nadu | Vellore | Red Zone
+Tamil Nadu | Virudhunagar | Red Zone
+Telangana | Komaram Bheem | Orange Zone
+Telangana | Hyderabad | Red Zone
+Telangana | Jangoan | Orange Zone
+Telangana | Jogulamba Gadwal | Orange Zone
+Telangana | Karimnagar | Orange Zone
+Telangana | Mahabubabad | Green Zone
+Telangana | Mancherial | Orange Zone
+Telangana | Medchali | Red Zone
+Telangana | Nalgonda | Orange Zone
+Telangana | Nagarkurnool | Green Zone
+Telangana | Nizamabad | Orange Zone
+Telangana | Rajanna Sircilla | Orange Zone
+Telangana | SangaReddy | Orange Zone
+Telangana | Suryapet | Red Zone
+Telangana | Wanaparthy | Green Zone
+Telangana | Warangal (Rural) | Green Zone
+Tripura | Dhalai | Green Zone
+Tripura | Khowai | Green Zone
+Tripura | Sepahijala | Green Zone
+Tripura | Unokoti | Green Zone
+Uttar Pradesh | Agra | Red Zone
+Uttar Pradesh | Allahabad | Orange Zone
+Uttar Pradesh | Amethi | Green Zone
+Uttar Pradesh | Auraiya | Orange Zone
+Uttar Pradesh | Bagpat | Orange Zone
+Uttar Pradesh | Ballia | Green Zone
+Uttar Pradesh | Banda | Orange Zone
+Uttar Pradesh | Bareilly | Red Zone
+Uttar Pradesh | Bhadohi | Orange Zone
+Uttar Pradesh | Budaun | Orange Zone
+Uttar Pradesh | Chandauli | Green Zone
+Uttar Pradesh | Deoria | Green Zone
+Uttar Pradesh | Etawah | Orange Zone
+Uttar Pradesh | Farrukhabad | Green Zone
+Uttar Pradesh | Firozabad | Red Zone
+Uttar Pradesh | Ghaziabad | Orange Zone
+Uttar Pradesh | Gonda | Orange Zone
+Uttar Pradesh | Hamirpur | Green Zone
+Uttar Pradesh | Hardoi | Orange Zone
+Uttar Pradesh | Jalaun | Orange Zone
+Uttar Pradesh | Jhansi | Orange Zone
+Uttar Pradesh | Kanpur Dehat | Green Zone
+Uttar Pradesh | Kasganj | Orange Zone
+Uttar Pradesh | Kushinagar | Green Zone
+Uttar Pradesh | Lalitpur | Green Zone
+Uttar Pradesh | Maharajganj | Green Zone
+Uttar Pradesh | Mainpuri | Orange Zone
+Uttar Pradesh | Mau | Orange Zone
+Uttar Pradesh | Mirzapur | Orange Zone
+Uttar Pradesh | Muzaffarnagar | Red Zone
+Uttar Pradesh | Pratapgarh | Orange Zone
+Uttar Pradesh | Rampur | Red Zone
+Uttar Pradesh | Sambhal | Orange Zone
+Uttar Pradesh | Shahjahanpur | Green Zone
+Uttar Pradesh | Shravasti | Orange Zone
+Uttar Pradesh | Sitapur | Orange Zone
+Uttar Pradesh | Sultanpur | Orange Zone
+Uttar Pradesh | Varanasi | Red Zone
+Uttarakhand | Bageshwar | Green Zone
+Uttarakhand | Champawat | Green Zone
+Uttarakhand | Haridwar | Red Zone
+Uttarakhand | Pauri | Green Zone
+Uttarakhand | Rudraprayag | Green Zone
+Uttarakhand | Udham Singh Nagar | Green Zone
+West Bengal | Alipurduar | Green Zone
+West Bengal | Paschim Bardhaman | Orange Zone
+West Bengal | Birbhum | Green Zone
+West Bengal | Dakshin Dinajpur | Green Zone
+West Bengal | Hooghly | Orange Zone
+West Bengal | Jalpaiguri | Red Zone
+West Bengal | Kalimpong | Red Zone
+West Bengal | Maldah | Red Zone
+West Bengal | Nadia | Orange Zone
+West Bengal | Paschim Medinipur | Red Zone
+West Bengal | Purulia | Green Zone
+West Bengal | Uttar Dinajpur | Green Zone
