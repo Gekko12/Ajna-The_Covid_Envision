@@ -3,7 +3,7 @@
 
 
 ----------------------------------CREATION of tables---------------------------
-CREATE TABLE "Student"(				#we put quotes in table to avoid collision from SQL keywords
+CREATE TABLE IF NOT EXISTS "Student"(				#we put quotes in table to avoid collision from SQL keywords
 	"USN"	TEXT NOT NULL,
 	"SName"	TEXT NOT NULL,
 	"Address"	TEXT,
@@ -13,7 +13,7 @@ CREATE TABLE "Student"(				#we put quotes in table to avoid collision from SQL k
 );
 
 
-CREATE TABLE "Zonal" (
+CREATE TABLE IF NOT EXISTS "Zonal" (
 	"State"	TEXT NOT NULL,
 	"District" TEXT NOT NULL,
 	"Zone"	TEXT NOT NULL,
@@ -21,7 +21,7 @@ CREATE TABLE "Zonal" (
 );
 				#https://covidindia.org/zone-restrictions/#
 
-CREATE TABLE "Travel History"(
+CREATE TABLE IF NOT EXISTS "Travel History"(
 	"USN" TEXT NOT NULL,
 	"State" TEXT,
 	"District" TEXT NOT NULL,
@@ -30,7 +30,7 @@ CREATE TABLE "Travel History"(
 );
 
 				
-CREATE TABLE "Covid Symptoms"(
+CREATE TABLE IF NOT EXISTS "Covid Symptoms"(
 	"USN" TEXT NOT NULL,
 	"Covid Positive" BOOLEAN NOT NULL CHECK ("Covid Positive" IN (0,1)) ,   #as boolean type not support in sql so we make our own type BOOLEAN and checking it lies in range 0 and 1 only ie. 0 means False ,1 means True 
 	"Fever" BOOLEAN NOT NULL CHECK ("Fever" IN (0,1)) ,
@@ -42,16 +42,16 @@ CREATE TABLE "Covid Symptoms"(
 );
 
 
-CREATE TABLE "Meet History" (
+CREATE TABLE IF NOT EXISTS "Meet History" (
 	"USN"	TEXT NOT NULL,
 	"Date"	TEXT NOT NULL,
 	"M_USN" TEXT NOT NULL,
 	"M_Name" TEXT,
-	FOREIGN KEY("USN") REFERENCES "Student"("USN") ON DELETE CASCADE,
+	FOREIGN KEY("USN") REFERENCES "Student"("USN") ON DELETE CASCADE
 );
 
 
-CREATE TABLE "Covid HelpLine Numbers" (
+CREATE TABLE IF NOT EXISTS "Covid HelpLine Numbers" (
 	"State"	TEXT NOT NULL,
 	"HelpLine Nos."	TEXT NOT NULL
 );
@@ -77,7 +77,8 @@ INSERT INTO "Meet History" VALUES("1AT18CS129" ,"01/10/2020" ,"1AT18CS107" ,"MUJ
 INSERT INTO "Covid HelpLine Numbers"VALUES("KARNATAKA","5564101651");
 INSERT INTO "Covid HelpLine Numbers"VALUES("KARNATAKA","2655621561");
 
-
+DROP TABLE IF EXISTS "Zonal";   #to delete a table
+DROP DATABASE "Ajna.db";        #to del the whole DB
 
  
 

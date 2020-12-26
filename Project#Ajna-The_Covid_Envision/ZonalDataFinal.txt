@@ -340,7 +340,6 @@ Uttar Pradesh | Mainpuri | Orange Zone
 Uttar Pradesh | Mau | Orange Zone
 Uttar Pradesh | Mirzapur | Orange Zone
 Uttar Pradesh | Muzaffarnagar | Red Zone
-Uttar Pradesh | Pratapgarh | Orange Zone
 Uttar Pradesh | Rampur | Red Zone
 Uttar Pradesh | Sambhal | Orange Zone
 Uttar Pradesh | Shahjahanpur | Green Zone
