@@ -16,6 +16,7 @@ class Initialization:
                 dropTables() : to drop all tables except Zonal table
                 zonalReset(zfile) : reset Zonal data and re-fill all the data from zfile.txt
                 createTables() : to create all the tables
+                helplineNum(helpfile) : reset covid helpline numbers and re-fill all the data from helpfile
 
     """
     fname = ""
@@ -138,6 +139,47 @@ class Initialization:
             self.con.close()
             return -1
 
+    def helplineNum(self, helpfile):
+        """
+        reset covid helpline numbers and re-fill all the data from helpfile
+        :param helpfile: file which contains the covid helpline Numbers
+        :return : returns 0 if all goes well else print error msg and return -1
+        """
+        try:
+            fh = open(helpfile)
+            patt = ' | '
+            anoum = ', '
+            self.cur.execute('''
+                DROP TABLE IF EXISTS "Covid HelpLine Numbers" ''')
+            self.cur.execute('''CREATE TABLE IF NOT EXISTS "Covid HelpLine Numbers" (
+                "State"	TEXT NOT NULL,
+                "HelpLine Nos."	TEXT NOT NULL
+                ) ''')
+
+            for line in fh:
+                if len(line) < 2:
+                    continue
+                data = line.strip().split(patt)
+                # print(data)
+                # if more than one number exists
+                if data[1].find(anoum) != -1:
+                    lst_num = data[1].strip().split(anoum)
+                    for num in lst_num:
+                        self.cur.execute('''
+                            INSERT INTO "Covid HelpLine Numbers" VALUES(?, ?)
+                            ''', (data[0], num, ))
+                else:
+                    self.cur.execute('''
+                    INSERT INTO "Covid HelpLine Numbers" VALUES(?, ?)
+                    ''', (data[0], data[1], ))
+
+            self.con.commit()
+            return 0
+        except Exception as e:
+            print(e)
+            self.con.close()
+            return -1
+
     def __del__(self):
         # destructor of the class
         self.con.close()
@@ -148,3 +190,4 @@ obj = Initialization('Ajna.db')
 obj.dropTables()
 obj.zonalReset('ZonalDataFinal.txt')
 obj.createTables()
+obj.helplineNum('CovidHelpLineNo.txt')

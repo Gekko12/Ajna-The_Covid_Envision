@@ -1069,7 +1069,7 @@
 </tr><tr class="row-536 even" role="row">
 	<td class="column-1">Rajasthan</td><td class="column-2">Pali</td><td class="column-3">Orange Zone</td>
 </tr><tr class="row-537 odd" role="row">
-	<td class="column-1">Rajasthan</td><td class="column-2">Pratapgarh</td><td class="column-3">Green Zone</td>
+	<td class="column-1">Rajasthan</td><td class="column-2">Pratapgarh</td><td class="column-3">Green Zone</td>	<---duplicate
 </tr><tr class="row-538 even" role="row">
 	<td class="column-1">Rajasthan</td><td class="column-2">Rajsamand</td><td class="column-3">Orange Zone</td>
 </tr><tr class="row-539 odd" role="row">
@@ -1369,7 +1369,7 @@
 </tr><tr class="row-686 even" role="row">
 	<td class="column-1">Uttar Pradesh</td><td class="column-2">Pilibhit</td><td class="column-3">Orange Zone</td>
 </tr><tr class="row-687 odd" role="row">
-	<td class="column-1">Uttar Pradesh</td><td class="column-2">Pratapgarh</td><td class="column-3">Orange Zone</td>
+	<td class="column-1">Uttar Pradesh</td><td class="column-2">Pratapgarh</td><td class="column-3">Orange Zone</td>		<--duplicate
 </tr><tr class="row-688 even" role="row">
 	<td class="column-1">Uttar Pradesh</td><td class="column-2">Raebareli</td><td class="column-3">Red Zone</td>
 </tr><tr class="row-689 odd" role="row">
