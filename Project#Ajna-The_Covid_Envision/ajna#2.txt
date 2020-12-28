@@ -5,6 +5,7 @@
 ----------------------------------CREATION of tables---------------------------
 CREATE TABLE IF NOT EXISTS "Student"(				#we put quotes in table to avoid collision from SQL keywords
 	"USN"	TEXT NOT NULL,
+	"Password" TEXT NOT NULL,
 	"SName"	TEXT NOT NULL,
 	"Address"	TEXT,
 	"Phone Number"	INTEGER NOT NULL UNIQUE,

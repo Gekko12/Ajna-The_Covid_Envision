@@ -1,0 +1,180 @@
+################ Font list that python supports ###################
+
+Abyssinica SIL
+Andale Mono
+Ani
+AnjaliOldLipi
+Arial
+Arial Black
+Bitstream Charter
+C059
+Century Schoolbook L
+Chandas
+Chilanka
+Comic Sans MS
+Courier 10 Pitch
+Courier New
+D050000L
+DejaVu Math TeX Gyre
+DejaVu Sans
+DejaVu Sans
+DejaVu Sans
+DejaVu Sans Mono
+DejaVu Serif
+DejaVu Serif
+Dingbats
+Droid Sans Fallback
+Dyuthi
+FreeMono
+FreeSans
+FreeSerif
+Gargi
+Garuda
+Gayathri
+Gayathri
+Georgia
+Gubbi
+Impact
+Jamrul
+KacstArt
+KacstBook
+KacstDecorative
+KacstDigital
+KacstFarsi
+KacstLetter
+KacstNaskh
+KacstOffice
+KacstOne
+KacstPen
+KacstPoster
+KacstQurn
+KacstScreen
+KacstTitle
+KacstTitleL
+Kalapi
+Kalimati
+Karumbi
+Keraleeyam
+Khmer OS
+Khmer OS System
+Kinnari
+LKLUG
+Laksaman
+Lato
+Lato
+Lato
+Lato
+Lato
+Lato
+Lato
+Lato
+Liberation Mono
+Liberation Sans
+Liberation Sans Narrow
+Liberation Serif
+Likhan
+Lohit Assamese
+Lohit Bengali
+Lohit Devanagari
+Lohit Gujarati
+Lohit Gurmukhi
+Lohit Kannada
+Lohit Malayalam
+Lohit Odia
+Lohit Tamil
+Lohit Tamil Classical
+Lohit Telugu
+Loma
+Manjari
+Manjari
+Meera
+Mitra Mono
+Mukti Narrow
+Mukti Narrow
+Nakula
+Navilu
+Nimbus Mono L
+Nimbus Mono PS
+Nimbus Roman
+Nimbus Roman No9 L
+Nimbus Sans
+Nimbus Sans L
+Nimbus Sans Narrow
+Norasi
+Noto Color Emoji
+Noto Mono
+Noto Sans CJK HK
+Noto Sans CJK JP
+Noto Sans CJK KR
+Noto Sans CJK SC
+Noto Sans CJK TC
+Noto Sans Mono CJK HK
+Noto Sans Mono CJK JP
+Noto Sans Mono CJK KR
+Noto Sans Mono CJK SC
+Noto Sans Mono CJK TC
+Noto Serif CJK JP
+Noto Serif CJK KR
+Noto Serif CJK SC
+Noto Serif CJK TC
+OpenSymbol
+P052
+Padauk
+Padauk Book
+Pagul
+Phetsarath OT
+Pothana2000
+Purisa
+Rachana
+RaghuMalayalamSans
+Rasa
+Rasa
+Rasa
+Rasa
+Rekha
+Saab
+Sahadeva
+Samanata
+Samyak Devanagari
+Samyak Gujarati
+Samyak Malayalam
+Samyak Tamil
+Sarai
+Sawasdee
+Standard Symbols L
+Standard Symbols PS
+Suruma
+Tibetan Machine Uni
+Times New Roman
+Tlwg Mono
+Tlwg Typewriter
+Tlwg Typist
+Tlwg Typo
+Trebuchet MS
+URW Bookman
+URW Bookman L
+URW Chancery L
+URW Gothic
+URW Gothic L
+URW Palladio L
+Ubuntu
+Ubuntu
+Ubuntu
+Ubuntu Condensed
+Ubuntu Mono
+Umpush
+Uroob
+Vemana2000
+Verdana
+Waree
+Webdings
+Yrsa
+Yrsa
+Yrsa
+Yrsa
+Z003
+aakar
+mry_KacstQurn
+ori1Uni
+padmaa
+padmaa-Bold.1.1

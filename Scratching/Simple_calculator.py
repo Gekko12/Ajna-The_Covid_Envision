@@ -4,6 +4,7 @@ from tkinter import *
 
 root = Tk()
 root.title('Simple Calculator')
+#root.configure(background="black")
 #root.iconbitmap('accessories_calculator.ico')
 
 e = Entry(root ,width=45 ,borderwidth=5 ,bg='blue' ,fg='white')
