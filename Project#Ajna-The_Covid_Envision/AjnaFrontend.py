@@ -57,7 +57,7 @@ class Ajna(Tk):
 
         pages = (MainPage, SigninPage, RegisterPage, UserHomePage, DailyEntryPage, CovidCheckPage
                  , CovidSymptomsPage, MeetHistoryPage, CovidZonePage, CovidHelpLineNumberPage
-                 , TravelHistoryPage, InsertPage, SearchPage)
+                 , TravelHistoryPage, InsertPage, SearchPage, NotificationPage, SelfDeclarePage)
 
         for F in pages:
             fr = F(container, self)
@@ -103,16 +103,16 @@ class MainPage(Frame):
         Label(frame, image=tagLine, bg=MAINPAGE_BG).pack(fill="both", side="top")
 
         style = ttk.Style()
-        style.configure("TButton", padding=0, relief=FLAT, background=MAINPAGE_BG, foreground=MAINPAGE_BG,
+        style.configure("My.TButton", padding=0, relief=FLAT, background=MAINPAGE_BG, foreground=MAINPAGE_BG,
                         borderwidth=-2, highlightthickness=0, activebackground=MAINPAGE_BG,
                         activeforeground=MAINPAGE_BG)
 
         sign_butt = ttk.Button(frame, command=lambda: controller.show_frame(SigninPage))
-        sign_butt.config(image=signin)
+        sign_butt.config(image=signin, style="My.TButton")
         sign_butt.pack(pady=15)
 
         register_butt = ttk.Button(frame, command=lambda: controller.show_frame(RegisterPage))
-        register_butt.config(image=register)
+        register_butt.config(image=register, style="My.TButton")
         register_butt.pack(pady=2)
 
 
@@ -173,21 +173,16 @@ class SigninPage(Frame):
         logimg = PhotoImage(file="backgrounds/Ajna - artboards/loginimg1.png")
         backimg = PhotoImage(file="backgrounds/Ajna - artboards/backButto.png")
 
-        style = ttk.Style()
-        style.configure("TButton", padding=0, background=SIGNPAGE_BG, foreground=SIGNPAGE_BG,
-                        borderwidth=-2, highlightthickness=0, activebackground=SIGNPAGE_BG,
-                        activeforeground=SIGNPAGE_BG)
-
         forgot_butt = ttk.Button(frame2, command=self.popup_passwd)
-        forgot_butt.config(image=forgotimg)
+        forgot_butt.config(image=forgotimg, style="My.TButton")
         forgot_butt.grid(pady=10, sticky="ne")
 
         login_butt = ttk.Button(frame2, command=lambda: controller.show_frame(UserHomePage))
-        login_butt.config(image=logimg)
+        login_butt.config(image=logimg, style="My.TButton")
         login_butt.grid(pady=12)
 
         back_butt = ttk.Button(frame, command=lambda: controller.show_frame(MainPage))
-        back_butt.config(image=backimg)
+        back_butt.config(image=backimg, style="My.TButton")
         back_butt.pack(pady=5, padx=75, side="left")
 
     @staticmethod
@@ -277,17 +272,12 @@ class RegisterPage(Frame):
         passwd2.grid(row=5, column=12, sticky="w", pady=1)
         passwd2.config(show="*")
 
-        style = ttk.Style()
-        style.configure("TButton", padding=0, background=SIGNPAGE_BG, foreground=SIGNPAGE_BG,
-                        borderwidth=-2, highlightthickness=0, activebackground=SIGNPAGE_BG,
-                        activeforeground=SIGNPAGE_BG)
-
         createAcc_butt = ttk.Button(frame, command=lambda: self.passwd_match(passwd1.get(), passwd2.get(), controller))
-        createAcc_butt.config(image=create_img)
+        createAcc_butt.config(image=create_img, style="My.TButton")
         createAcc_butt.pack(pady=0)
 
         back_butt = ttk.Button(frame, command=lambda: controller.show_frame(MainPage))
-        back_butt.config(image=backimg)
+        back_butt.config(image=backimg, style="My.TButton")
         back_butt.pack(pady=0, padx=75, side="left")
 
     @staticmethod
@@ -299,7 +289,7 @@ class RegisterPage(Frame):
         :param passwd2: string enter into the confirm password filed
         """
         if passwd1 != passwd2:
-            messagebox.showerror("Password", "Password mismatch !!!")
+            messagebox.showerror("Mismatch", "Password mismatch !!!")
         else:
             controller.show_frame(UserHomePage)  # jumps to user Homepage
 
@@ -340,39 +330,34 @@ class UserHomePage(Frame):
         l1 = Label(frame, text=wel_note, font=LABEL_FONT, bg=SIGNPAGE_BG)
         l1.place(x=15, y=15)
 
-        style = ttk.Style()
-        style.configure("TButton", padding=0, background=SIGNPAGE_BG, foreground=SIGNPAGE_BG,
-                        borderwidth=-2, highlightthickness=0, activebackground=SIGNPAGE_BG,
-                        activeforeground=SIGNPAGE_BG)
-
         # placed using window gerometry dimension and image dimension ie. 178x178
 
         entry_butt = ttk.Button(frame, command=lambda: controller.show_frame(DailyEntryPage))
-        entry_butt.config(image=entry_img)
+        entry_butt.config(image=entry_img, style="My.TButton")
         entry_butt.place(x=H_X1, y=H_Y1)
 
         covidchk_butt = ttk.Button(frame, command=lambda: controller.show_frame(CovidCheckPage))
-        covidchk_butt.config(image=covidchk_img)
+        covidchk_butt.config(image=covidchk_img, style="My.TButton")
         covidchk_butt.place(x=H_X2, y=H_Y1)
 
         travelhist_butt = ttk.Button(frame, command=lambda: controller.show_frame(TravelHistoryPage))
-        travelhist_butt.config(image=travelhist_img)
+        travelhist_butt.config(image=travelhist_img, style="My.TButton")
         travelhist_butt.place(x=H_X3, y=H_Y1)
 
         meethist_butt = ttk.Button(frame, command=lambda: controller.show_frame(MeetHistoryPage))
-        meethist_butt.config(image=meethist_img)
+        meethist_butt.config(image=meethist_img, style="My.TButton")
         meethist_butt.place(x=H_X1, y=H_Y2)
 
         help_butt = ttk.Button(frame, command=lambda: controller.show_frame(CovidHelpLineNumberPage))
-        help_butt.config(image=help_img)
+        help_butt.config(image=help_img, style="My.TButton")
         help_butt.place(x=H_X2, y=H_Y2)
 
         zone_butt = ttk.Button(frame, command=lambda: controller.show_frame(CovidZonePage))
-        zone_butt.config(image=zone_img)
+        zone_butt.config(image=zone_img, style="My.TButton")
         zone_butt.place(x=H_X3, y=H_Y2)
 
         logout_butt = ttk.Button(frame, command=lambda: controller.show_frame(MainPage))
-        logout_butt.config(image=logout_img)
+        logout_butt.config(image=logout_img, style="My.TButton")
         logout_butt.place(x=597, y=H_Y3)
 
 
@@ -409,30 +394,32 @@ class DailyEntryPage(Frame):
         l2 = Label(frame, image=covidaware_img, bg=SIGNPAGE_BG)
         l2.place(x=80, y=130)
 
-        style = ttk.Style()
-        style.configure("TButton", padding=0, background=SIGNPAGE_BG, foreground=SIGNPAGE_BG,
-                        borderwidth=-2, highlightthickness=0, activebackground=SIGNPAGE_BG,
-                        activeforeground=SIGNPAGE_BG)
-
         insert_butt = ttk.Button(frame, command=lambda: controller.show_frame(InsertPage))
-        insert_butt.config(image=insert_img)
+        insert_butt.config(image=insert_img, style="My.TButton")
         insert_butt.place(x=E_X1, y=E_Y1)
 
         search_butt = ttk.Button(frame, command=lambda: controller.show_frame(SearchPage))
-        search_butt.config(image=search_img)
+        search_butt.config(image=search_img, style="My.TButton")
         search_butt.place(x=E_X1, y=E_Y2)
 
-        reset_butt = ttk.Button(frame)
-        reset_butt.config(image=reset_img)
+        reset_butt = ttk.Button(frame, command=self.reset_fun)
+        reset_butt.config(image=reset_img, style="My.TButton")
         reset_butt.place(x=E_X1, y=E_Y3)
 
-        notification_butt = ttk.Button(frame)  # , command=lambda: controller.show_frame(UserHomePage))
-        notification_butt.config(image=notification_img)
+        notification_butt = ttk.Button(frame, command=lambda: controller.show_frame(NotificationPage))
+        notification_butt.config(image=notification_img, style="My.TButton")
         notification_butt.place(x=E_X1, y=E_Y4)
 
         back_butt = ttk.Button(frame, command=lambda: controller.show_frame(UserHomePage))
-        back_butt.config(image=backimg)
+        back_butt.config(image=backimg, style="My.TButton")
         back_butt.place(x=75, y=630)
+
+    @staticmethod
+    def reset_fun():
+        """
+        This function reset the Meet and TRavel History
+        """
+        messagebox.askyesno('Reset', "Are you sure you want to reset, Meet and Travel History ? ")
 
 
 class CovidCheckPage(Frame):
@@ -456,7 +443,7 @@ class CovidCheckPage(Frame):
     def __init__(self, parent, controller):
         Frame.__init__(self, parent)
 
-        global ques1_img, ques2_img, covid_symp_img, self_declare_img
+        global ques1_img, ques2_img, covid_symp_img, self_declare_img, submit_img
 
         frame = Frame(self, relief=RAISED, width=F_WIDTH, height=F_HEIGHT)
         frame.pack()
@@ -467,6 +454,7 @@ class CovidCheckPage(Frame):
         ques2_img = PhotoImage(file="backgrounds/Ajna - artboards/ques2_img.png")
         covid_symp_img = PhotoImage(file="backgrounds/Ajna - artboards/covid_symp_img.png")
         self_declare_img = PhotoImage(file="backgrounds/Ajna - artboards/self_declare_img.png")
+        submit_img = PhotoImage(file="backgrounds/Ajna - artboards/submit.png")
 
         l1 = Label(frame, text="COVID CHECK", font=HEADING_PAGE_FONT, bg=SIGNPAGE_BG)
         l1.place(x=565, y=HEAD_Y)
@@ -542,22 +530,42 @@ class CovidCheckPage(Frame):
         q2_none_cb2.place(x=700, y=340)
 
         ########################################### Buttons #################################################
-        style = ttk.Style()
-        style.configure("TButton", padding=0, background=SIGNPAGE_BG, foreground=SIGNPAGE_BG,
-                        borderwidth=-2, highlightthickness=0, activebackground=SIGNPAGE_BG,
-                        activeforeground=SIGNPAGE_BG)
+        submit_butt = ttk.Button(frame, command=lambda: self.submit_func(controller))
+        submit_butt.config(image=submit_img, style="My.TButton")
+        submit_butt.place(x=370, y=500)
 
         covid_symp_butt = ttk.Button(frame, command=lambda: controller.show_frame(CovidSymptomsPage))
-        covid_symp_butt.config(image=covid_symp_img)
-        covid_symp_butt.place(x=470, y=500)
+        covid_symp_butt.config(image=covid_symp_img, style="My.TButton")
+        covid_symp_butt.place(x=580, y=500)
 
-        self_declare_butt = ttk.Button(frame)
-        self_declare_butt.config(image=self_declare_img)
-        self_declare_butt.place(x=680, y=500)
+        self_declare_butt = ttk.Button(frame, command=lambda: self.sdeclare(controller))
+        self_declare_butt.config(image=self_declare_img, style="My.TButton")
+        self_declare_butt.place(x=790, y=500)
 
         back_butt = ttk.Button(frame, command=lambda: controller.show_frame(UserHomePage))
-        back_butt.config(image=backimg)
+        back_butt.config(image=backimg, style="My.TButton")
         back_butt.place(x=75, y=630)
+
+    @staticmethod
+    def submit_func(controller):
+        """
+        This function popup the update window status and jumps back to UserHomePage
+        :return: returns nothing
+        """
+        messagebox.showinfo("Submit", "Update Successful !")
+        controller.show_frame(UserHomePage)
+
+    @staticmethod
+    def sdeclare(controller):
+        """
+        This function popup and direct to self declare page
+        :param controller:
+        :return: return nothing
+        """
+        response = messagebox.askyesno("Self-Declared", "Are you sure ?")
+
+        if response:
+            controller.show_frame(SelfDeclarePage)
 
 
 class CovidSymptomsPage(Frame):
@@ -599,13 +607,8 @@ class CovidSymptomsPage(Frame):
         l5 = Label(frame, image=covid_symp5_img, bg=SIGNPAGE_BG)
         l5.place(x=580, y=420)
 
-        style = ttk.Style()
-        style.configure("TButton", padding=0, background=SIGNPAGE_BG, foreground=SIGNPAGE_BG,
-                        borderwidth=-2, highlightthickness=0, activebackground=SIGNPAGE_BG,
-                        activeforeground=SIGNPAGE_BG)
-
         back_butt = ttk.Button(frame, command=lambda: controller.show_frame(CovidCheckPage))
-        back_butt.config(image=backimg)
+        back_butt.config(image=backimg, style="My.TButton")
         back_butt.place(x=75, y=630)
 
 
@@ -664,13 +667,8 @@ class MeetHistoryPage(Frame):
 
         my_tree.place(x=80, y=120)
 
-        style1 = ttk.Style()
-        style1.configure("TButton", padding=0, background=SIGNPAGE_BG, foreground=SIGNPAGE_BG,
-                         borderwidth=-2, highlightthickness=-10, activebackground=SIGNPAGE_BG,
-                         activeforeground=SIGNPAGE_BG)
-
         back_butt = ttk.Button(frame, command=lambda: controller.show_frame(UserHomePage))
-        back_butt.config(image=backimg)
+        back_butt.config(image=backimg, style="My.TButton")
         back_butt.place(x=75, y=630)
 
 
@@ -739,13 +737,8 @@ class CovidZonePage(Frame):
 
         my_tree.place(x=80, y=120)
 
-        style1 = ttk.Style()
-        style1.configure("TButton", padding=0, background=SIGNPAGE_BG, foreground=SIGNPAGE_BG,
-                         borderwidth=-2, highlightthickness=-10, activebackground=SIGNPAGE_BG,
-                         activeforeground=SIGNPAGE_BG)
-
         back_butt = ttk.Button(frame, command=lambda: controller.show_frame(UserHomePage))
-        back_butt.config(image=backimg)
+        back_butt.config(image=backimg, style="My.TButton")
         back_butt.place(x=75, y=630)
 
 
@@ -815,13 +808,8 @@ class CovidHelpLineNumberPage(Frame):
 
         my_tree.place(x=80, y=130)
 
-        style1 = ttk.Style()
-        style1.configure("TButton", padding=0, background=SIGNPAGE_BG, foreground=SIGNPAGE_BG,
-                         borderwidth=-2, highlightthickness=-10, activebackground=SIGNPAGE_BG,
-                         activeforeground=SIGNPAGE_BG)
-
         back_butt = ttk.Button(frame, command=lambda: controller.show_frame(UserHomePage))
-        back_butt.config(image=backimg)
+        back_butt.config(image=backimg, style="My.TButton")
         back_butt.place(x=75, y=630)
 
 
@@ -880,13 +868,8 @@ class TravelHistoryPage(Frame):
 
         my_tree.place(x=80, y=120)
 
-        style1 = ttk.Style()
-        style1.configure("TButton", padding=0, background=SIGNPAGE_BG, foreground=SIGNPAGE_BG,
-                         borderwidth=-2, highlightthickness=-10, activebackground=SIGNPAGE_BG,
-                         activeforeground=SIGNPAGE_BG)
-
         back_butt = ttk.Button(frame, command=lambda: controller.show_frame(UserHomePage))
-        back_butt.config(image=backimg)
+        back_butt.config(image=backimg, style="My.TButton")
         back_butt.place(x=75, y=630)
 
 
@@ -1009,21 +992,16 @@ class InsertPage(Frame):
         usn_entry_l2.place(x=INSERT_EX2 - 70, y=INSERT_HEAD_QUES_GAP_Y + INSERT_QUES_GAP_Y * 2)
 
         ########################## Buttons ##########################################################
-        style1 = ttk.Style()
-        style1.configure("TButton", padding=0, background=SIGNPAGE_BG, foreground=SIGNPAGE_BG,
-                         borderwidth=-2, highlightthickness=-10, activebackground=SIGNPAGE_BG,
-                         activeforeground=SIGNPAGE_BG)
-
-        update_butt = ttk.Button(frame, command=lambda: controller.show_frame(UserHomePage))
-        update_butt.config(image=update_butt_img)
+        update_butt = ttk.Button(frame, command=lambda: controller.show_frame(DailyEntryPage))
+        update_butt.config(image=update_butt_img, style="My.TButton")
         update_butt.place(x=525, y=480)
 
         add_more_butt = ttk.Button(frame, command=self.updatePopup)
-        add_more_butt.config(image=add_more_img)
+        add_more_butt.config(image=add_more_img, style="My.TButton")
         add_more_butt.place(x=1200, y=580)
 
-        back_butt = ttk.Button(frame, command=lambda: controller.show_frame(UserHomePage))
-        back_butt.config(image=backimg)
+        back_butt = ttk.Button(frame, command=lambda: controller.show_frame(DailyEntryPage))
+        back_butt.config(image=backimg, style="My.TButton")
         back_butt.place(x=75, y=630)
 
     @staticmethod
@@ -1099,22 +1077,17 @@ class SearchPage(Frame):
         search1_entry.place(x=INSERT_EX2 - 20, y=INSERT_HEAD_QUES_GAP_Y + INSERT_QUES_GAP_Y)
 
         ##################################### Buttons #############################################
-        style1 = ttk.Style()
-        style1.configure("TButton", padding=0, background=SIGNPAGE_BG, foreground=SIGNPAGE_BG,
-                         borderwidth=-2, highlightthickness=-10, activebackground=SIGNPAGE_BG,
-                         activeforeground=SIGNPAGE_BG)
-
         search_butt = ttk.Button(frame, command=lambda: self.search_travel(frame, key_select.get(), search_entry.get()))
-        search_butt.config(image=search_img_butt)
+        search_butt.config(image=search_img_butt, style="My.TButton")
         search_butt.place(x=INSERT_EX1 + 260, y=INSERT_HEAD_QUES_GAP_Y + INSERT_QUES_GAP_Y - 15)
 
         search_butt1 = ttk.Button(frame,
                                   command=lambda: self.search_meet(frame, key_select1.get(), search1_entry.get()))
-        search_butt1.config(image=search_img_butt)
+        search_butt1.config(image=search_img_butt, style="My.TButton")
         search_butt1.place(x=INSERT_EX2 + 260, y=INSERT_HEAD_QUES_GAP_Y + INSERT_QUES_GAP_Y - 15)
 
-        back_butt = ttk.Button(frame, command=lambda: controller.show_frame(UserHomePage))
-        back_butt.config(image=backimg)
+        back_butt = ttk.Button(frame, command=lambda: controller.show_frame(DailyEntryPage))
+        back_butt.config(image=backimg, style="My.TButton")
         back_butt.place(x=75, y=630)
 
     @staticmethod
@@ -1232,6 +1205,92 @@ class SearchPage(Frame):
         scrollbar2.pack(side="right", fill="y", padx=5)
         my_tree.config(yscrollcommand=scrollbar2.set)
         my_tree.pack()
+
+
+class NotificationPage(Frame):
+    """
+    This class displays any contact with detected covid person
+    """
+
+    def __init__(self, parent, controller):
+        Frame.__init__(self, parent)
+
+        frame = Frame(self, relief=RAISED, width=F_WIDTH, height=F_HEIGHT)
+        frame.pack()
+        frame.pack_propagate(0)
+        frame.config(background=SIGNPAGE_BG)
+
+        label = Label(frame, text="NOTIFICATION", font=HEADING_PAGE_FONT, bg=SIGNPAGE_BG)
+        label.place(x=560, y=HEAD_Y)
+
+        style = ttk.Style()
+        style.configure("Treeview", background="white", foreground="black", rowheight=45, fieldbackground="white"
+                        , font=TABLE_ROW_FONT, bd=0, highlightthickness=0)  # Modify the font of the body
+        style.configure("mystyle.Treeview.Heading", font=TABLE_HEAD_FONT,
+                        background=TABLE_HEAD_BG, foreground=TABLE_HEAD_FG)  # Modify the font of the headings
+        style.layout("mystyle.Treeview", [('mystyle.Treeview.treearea', {'sticky': 'nswe'})])  # Remove the borders
+        style.map("Treeview", background=[('selected', 'green')])
+
+        my_tree = ttk.Treeview(frame, style="mystyle.Treeview")
+        my_tree['columns'] = (" DATE ", " USN ", " NAME ", " STATUS")
+
+        my_tree.column("#0", width=0, stretch=NO)
+        my_tree.column("#1", anchor=CENTER, width=300, minwidth=200)
+        my_tree.column("#2", anchor=CENTER, width=300, minwidth=200)
+        my_tree.column("#3", anchor=CENTER, width=300, minwidth=200)
+        my_tree.column("#4", anchor=CENTER, width=300, minwidth=200)
+
+        my_tree.heading("#1", text=" DATE ", anchor=CENTER)
+        my_tree.heading("#2", text=" USN ", anchor=CENTER)
+        my_tree.heading("#3", text=" NAME ", anchor=CENTER)
+        my_tree.heading("#4", text=" STATUS ", anchor=CENTER)
+
+        my_tree.place(x=80, y=120)
+
+        back_butt = ttk.Button(frame, command=lambda: controller.show_frame(DailyEntryPage))
+        back_butt.config(image=backimg, style="My.TButton")
+        back_butt.place(x=75, y=630)
+
+
+class SelfDeclarePage(Frame):
+    """
+    This page displayed after self-declared got a response of YES or user found to be covid +ve page
+    """
+    def __init__(self, parent, controller):
+        Frame.__init__(self, parent)
+        global self_img1, self_img2, ok_butt_img, helpline_butt_img, aware_img
+
+        frame = Frame(self, relief=RAISED, width=F_WIDTH, height=F_HEIGHT)
+        frame.pack()
+        frame.pack_propagate(0)
+        frame.config(background=SIGNPAGE_BG)
+
+        self_img1 = PhotoImage(file="/home/gaurav/Programs/Projects/Ajna-The_Covid_Envision/Project#Ajna-The_Covid_Envision/backgrounds/Ajna - artboards/self_declare_1.png")
+        self_img2 = PhotoImage(file="/home/gaurav/Programs/Projects/Ajna-The_Covid_Envision/Project#Ajna-The_Covid_Envision/backgrounds/Ajna - artboards/self_declare_2.png")
+        ok_butt_img = PhotoImage(file="/home/gaurav/Programs/Projects/Ajna-The_Covid_Envision/Project#Ajna-The_Covid_Envision/backgrounds/Ajna - artboards/ok_butt.png")
+        helpline_butt_img = PhotoImage(file="/home/gaurav/Programs/Projects/Ajna-The_Covid_Envision/Project#Ajna-The_Covid_Envision/backgrounds/Ajna - artboards/covid_helpline_butt_self_declare.png")
+        aware_img = PhotoImage(file="/home/gaurav/Programs/Projects/Ajna-The_Covid_Envision/Project#Ajna-The_Covid_Envision/backgrounds/Ajna - artboards/awre_self_declare_img.png")
+
+        label = Label(frame, text="SELF-DECLARE", font=HEADING_PAGE_FONT, bg=SIGNPAGE_BG)
+        label.place(x=560-10, y=HEAD_Y-20)
+
+        label1 = Label(frame, image=self_img1, bg=SIGNPAGE_BG)
+        label1.place(x=100-50, y=80-10)
+
+        label2 = Label(frame, image=self_img2, bg=SIGNPAGE_BG)
+        label2.place(x=702, y=80-10)
+
+        label3 = Label(frame, image=aware_img, bg=SIGNPAGE_BG)
+        label3.place(x=700, y=200-10)
+        ################################# Buttons #################################
+        ok_butt = ttk.Button(frame, command=lambda: controller.show_frame(UserHomePage))
+        ok_butt.config(image=ok_butt_img, style="My.TButton")
+        ok_butt.place(x=450, y=590-5)
+
+        helpline_butt = ttk.Button(frame, command=lambda: controller.show_frame(CovidHelpLineNumberPage))
+        helpline_butt.config(image=helpline_butt_img, style="My.TButton")
+        helpline_butt.place(x=700, y=590-5)
+
 
 def main():
     """
