@@ -3,9 +3,13 @@
 """
 
 from tkinter import *
+from re import *
 from tkinter import ttk
 from tkinter import messagebox
-import sqlite3 as sq
+from AjnaDBBackend import *
+from datetime import date
+from time import *
+
 
 LABEL_FONT = ("Arial Regular", 18)
 INPUT_FONT = ("Chilanka", 16)
@@ -33,9 +37,65 @@ TABLE_ROW_FONT = INPUT_FONT
 
 (INSERT_EX1, INSERT_EX2, INSERT_EY) = (275, 890, 160)  # InsertPage coordinates for entry and heading reference
 (INSERT_HEAD_QUES_GAP_Y, INSERT_QUES_GAP_Y) = (250, 60)  # INSERT_HEAD_QUES_GAP_Y is the gap b/w heading and question
-
-
 # INSERT_QUES_GAP_Y is the gap/padding in Y-axis
+
+USERNAME = "abcd"
+
+def date_add_15():
+    """
+    This function adds 15 days to current date
+    :return: returns new date with 15 days added
+    """
+    today = date.today()
+    print(today)
+
+    d_split = str(today)
+    yyyymmdd = d_split.split(sep='-')
+    print(yyyymmdd)
+
+    days_to_add = 15
+    days_lst = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+
+    (y, m, d) = (0, 0, 0)
+
+    year = int(yyyymmdd[0])
+    month = int(yyyymmdd[1])-1  #to correspond to list
+    date_ = int(yyyymmdd[2]) + days_to_add
+
+    if date_ > int(days_lst[month]):
+        d = date_ - int(days_lst[month])
+        m = month + 2 # +2 beacause as we start the list from 0
+        if m > 12:
+            y = year + 1
+            m = 1
+        else:
+            y_ = str(year)
+    else:
+        d = date_
+        m = month+1
+        y_ = str(year)
+
+    if len(str(d)) < 2:
+        d_ = "0"+str(d)
+    if len(str(m)) < 2:
+        m_ = "0"+str(m)
+
+    return (y_ + "-" + m_ + "-" + d_)
+
+
+def usnValidity(usn):
+        """
+        It checks usn is valid or not and return true or false accordingly
+        :param usn: usn of user
+        :return: return True if ussn valid else False
+        """
+        # valid usn like 1AT18CS128
+        result = re.findall("([0-9][a-zA-Z][a-zA-Z][0-9][0-9][a-zA-Z][a-zA-Z][0-9][0-9][0-9])", usn)
+
+        if len(result) != 0:
+            if result[0] == usn:
+                return True
+        return False
 
 
 class Ajna(Tk):
@@ -173,11 +233,11 @@ class SigninPage(Frame):
         logimg = PhotoImage(file="backgrounds/Ajna - artboards/loginimg1.png")
         backimg = PhotoImage(file="backgrounds/Ajna - artboards/backButto.png")
 
-        forgot_butt = ttk.Button(frame2, command=self.popup_passwd)
+        forgot_butt = ttk.Button(frame2, command=lambda: self.popup_passwd(username.get()))
         forgot_butt.config(image=forgotimg, style="My.TButton")
         forgot_butt.grid(pady=10, sticky="ne")
 
-        login_butt = ttk.Button(frame2, command=lambda: controller.show_frame(UserHomePage))
+        login_butt = ttk.Button(frame2, command=lambda: self.loginCredentialCheck(username.get(), passwd.get(), controller))
         login_butt.config(image=logimg, style="My.TButton")
         login_butt.grid(pady=12)
 
@@ -185,13 +245,48 @@ class SigninPage(Frame):
         back_butt.config(image=backimg, style="My.TButton")
         back_butt.pack(pady=5, padx=75, side="left")
 
+
     @staticmethod
-    def popup_passwd():
+    def popup_passwd(username):
         """
         PopUp window will splash when we hit Forgot_button
         It's static function which can't be inheritted
         """
-        messagebox.showinfo("Forgot Password", message="Your phone number is your new password !")
+        obj = DBsearch('backgrounds/Ajna.db')
+        result = obj.userSearch(username)
+        if result != "Empty":
+            messagebox.showinfo("Forgot Password", message="Your phone number is your new password !")
+
+            obj1 = DBInsertion('backgrounds/Ajna.db')
+            obj1.setphoneNoasPwd(username)
+        else:
+            messagebox.showinfo("LogIn", "No record found (Register - first) !!!")
+            controller.show_frame(RegisterPage)
+
+
+    @staticmethod
+    def loginCredentialCheck(username, passwd, controller):
+        """
+        This function check whether the userCredentials are matched or not
+        :param username:
+        :param passwd:
+        :param controller:
+        :return:
+        """
+        obj = DBsearch('backgrounds/Ajna.db')
+        result = obj.userSearch(username, passwd)
+        if result == -1:
+            messagebox.showinfo("Error", "Error occured !!!")
+        elif result == "Empty":
+            messagebox.showinfo("LogIn", "No record found (Register - first) !!!")
+            controller.show_frame(RegisterPage)
+        elif result:
+            global USERNAME
+            USERNAME = username
+            print(USERNAME,"line number 285")
+            controller.show_frame(UserHomePage) # jumps to user Homepage
+        else:
+            messagebox.showinfo("Account", "Credentials - mismatched !!!")
 
 
 class RegisterPage(Frame):
@@ -272,7 +367,9 @@ class RegisterPage(Frame):
         passwd2.grid(row=5, column=12, sticky="w", pady=1)
         passwd2.config(show="*")
 
-        createAcc_butt = ttk.Button(frame, command=lambda: self.passwd_match(passwd1.get(), passwd2.get(), controller))
+        createAcc_butt = ttk.Button(frame, command=lambda: self.passwd_match(name.get(), usn.get(), username.get(),
+                                                                             phone.get(), passwd1.get(), passwd2.get(),
+                                                                             controller))
         createAcc_butt.config(image=create_img, style="My.TButton")
         createAcc_butt.pack(pady=0)
 
@@ -280,18 +377,41 @@ class RegisterPage(Frame):
         back_butt.config(image=backimg, style="My.TButton")
         back_butt.pack(pady=0, padx=75, side="left")
 
+
     @staticmethod
-    def passwd_match(passwd1, passwd2, controller):
+    def passwd_match(name, usn, username, phone, passwd1, passwd2, controller):
         """
         This function will check whether password and confirm password fileds match
+        :param name: name of user
+        :param usn: usn of user
+        :param username: username of user
+        :param phone: phone number of user
         :param controller: used to jump to the user home page
         :param passwd1: string enter into the password feild
         :param passwd2: string enter into the confirm password filed
         """
-        if passwd1 != passwd2:
+        if len(name) < 3:
+            messagebox.showerror("Error", "Invalid NAME (length too short) !!!")
+        elif not usnValidity(usn):
+            messagebox.showerror("Error", "Invalid USN !!!")
+        elif len(username) < 4:
+            messagebox.showerror("Error", "Invalid USERNAME (length too short) !!!")
+        elif len(phone) < 10  or not str.isdigit(phone):
+            messagebox.showerror("Error", "Invalid PHONE_NUMBER !!!")
+        elif len(passwd1) < 5 or len(passwd2) < 5:
+            messagebox.showerror("Error", "PASSWORD length should be more than 5 characters !!!")
+        elif passwd1 != passwd2:
             messagebox.showerror("Mismatch", "Password mismatch !!!")
         else:
-            controller.show_frame(UserHomePage)  # jumps to user Homepage
+            insrt = DBInsertion('backgrounds/Ajna.db')
+            response = insrt.studentInsertion(name, usn, username, phone, passwd2)
+            if response[0] == -1:
+                messagebox.showerror("Error",response[1])
+            else:
+                global USERNAME
+                USERNAME = username
+                print(USERNAME, "line number 412")
+                controller.show_frame(UserHomePage) # jumps to user Homepage
 
 
 class UserHomePage(Frame):
@@ -324,15 +444,10 @@ class UserHomePage(Frame):
         help_img = PhotoImage(file="backgrounds/Ajna - artboards/help_img.png")
         zone_img = PhotoImage(file="backgrounds/Ajna - artboards/zone_img.png")
         logout_img = PhotoImage(file="backgrounds/Ajna - artboards/logout_img.png")
-
-        u_name = "UserName"
-        wel_note = "Hello, " + u_name
-        l1 = Label(frame, text=wel_note, font=LABEL_FONT, bg=SIGNPAGE_BG)
-        l1.place(x=15, y=15)
-
         # placed using window gerometry dimension and image dimension ie. 178x178
 
-        entry_butt = ttk.Button(frame, command=lambda: controller.show_frame(DailyEntryPage))
+
+        entry_butt = ttk.Button(frame, command=lambda: self.popDailyEntry(frame, controller))
         entry_butt.config(image=entry_img, style="My.TButton")
         entry_butt.place(x=H_X1, y=H_Y1)
 
@@ -356,9 +471,21 @@ class UserHomePage(Frame):
         zone_butt.config(image=zone_img, style="My.TButton")
         zone_butt.place(x=H_X3, y=H_Y2)
 
-        logout_butt = ttk.Button(frame, command=lambda: controller.show_frame(MainPage))
+        logout_butt = ttk.Button(frame, command=quit)
         logout_butt.config(image=logout_img, style="My.TButton")
         logout_butt.place(x=597, y=H_Y3)
+
+    @staticmethod
+    def popDailyEntry(frame, controller):
+        """
+        :param controller:
+        :return:
+        """
+        global USERNAME
+        l1 = Label(frame, text="Hello, "+USERNAME, font=LABEL_FONT, bg=SIGNPAGE_BG)
+        l1.place(x=15, y=15)
+        print(USERNAME, "line number 450")
+        controller.show_frame(DailyEntryPage)
 
 
 class DailyEntryPage(Frame):
@@ -417,10 +544,13 @@ class DailyEntryPage(Frame):
     @staticmethod
     def reset_fun():
         """
-        This function reset the Meet and TRavel History
+        This function reset the Meet and Travel History
         """
-        messagebox.askyesno('Reset', "Are you sure you want to reset, Meet and Travel History ? ")
-
+        res = messagebox.askyesno('Reset', "Are you sure you want to reset, Meet and Travel History ? ")
+        if res :
+            date = date_add_15()
+            obj = DBInsertion('backgrounds/Ajna.db')
+            resetScheduledDate
 
 class CovidCheckPage(Frame):
     """
@@ -1235,17 +1365,17 @@ class NotificationPage(Frame):
         my_tree['columns'] = (" DATE ", " USN ", " NAME ", " STATUS")
 
         my_tree.column("#0", width=0, stretch=NO)
-        my_tree.column("#1", anchor=CENTER, width=300, minwidth=200)
-        my_tree.column("#2", anchor=CENTER, width=300, minwidth=200)
-        my_tree.column("#3", anchor=CENTER, width=300, minwidth=200)
-        my_tree.column("#4", anchor=CENTER, width=300, minwidth=200)
+        my_tree.column("#1", anchor=CENTER, width=250, minwidth=100)
+        my_tree.column("#2", anchor=CENTER, width=250, minwidth=100)
+        my_tree.column("#3", anchor=CENTER, width=250, minwidth=100)
+        my_tree.column("#4", anchor=CENTER, width=250, minwidth=100)
 
         my_tree.heading("#1", text=" DATE ", anchor=CENTER)
         my_tree.heading("#2", text=" USN ", anchor=CENTER)
         my_tree.heading("#3", text=" NAME ", anchor=CENTER)
         my_tree.heading("#4", text=" STATUS ", anchor=CENTER)
 
-        my_tree.place(x=80, y=120)
+        my_tree.place(x=80+100, y=120)
 
         back_butt = ttk.Button(frame, command=lambda: controller.show_frame(DailyEntryPage))
         back_butt.config(image=backimg, style="My.TButton")
@@ -1265,11 +1395,11 @@ class SelfDeclarePage(Frame):
         frame.pack_propagate(0)
         frame.config(background=SIGNPAGE_BG)
 
-        self_img1 = PhotoImage(file="/home/gaurav/Programs/Projects/Ajna-The_Covid_Envision/Project#Ajna-The_Covid_Envision/backgrounds/Ajna - artboards/self_declare_1.png")
-        self_img2 = PhotoImage(file="/home/gaurav/Programs/Projects/Ajna-The_Covid_Envision/Project#Ajna-The_Covid_Envision/backgrounds/Ajna - artboards/self_declare_2.png")
-        ok_butt_img = PhotoImage(file="/home/gaurav/Programs/Projects/Ajna-The_Covid_Envision/Project#Ajna-The_Covid_Envision/backgrounds/Ajna - artboards/ok_butt.png")
-        helpline_butt_img = PhotoImage(file="/home/gaurav/Programs/Projects/Ajna-The_Covid_Envision/Project#Ajna-The_Covid_Envision/backgrounds/Ajna - artboards/covid_helpline_butt_self_declare.png")
-        aware_img = PhotoImage(file="/home/gaurav/Programs/Projects/Ajna-The_Covid_Envision/Project#Ajna-The_Covid_Envision/backgrounds/Ajna - artboards/awre_self_declare_img.png")
+        self_img1 = PhotoImage(file="backgrounds/Ajna - artboards/self_declare_1.png")
+        self_img2 = PhotoImage(file="backgrounds/Ajna - artboards/self_declare_2.png")
+        ok_butt_img = PhotoImage(file="backgrounds/Ajna - artboards/ok_butt.png")
+        helpline_butt_img = PhotoImage(file="backgrounds/Ajna - artboards/covid_helpline_butt_self_declare.png")
+        aware_img = PhotoImage(file="backgrounds/Ajna - artboards/awre_self_declare_img.png")
 
         label = Label(frame, text="SELF-DECLARE", font=HEADING_PAGE_FONT, bg=SIGNPAGE_BG)
         label.place(x=560-10, y=HEAD_Y-20)

@@ -1,17 +1,17 @@
-												--- Ajna #2 ---
+												--- Ajna #3 ---
 
 
 
 ----------------------------------CREATION of tables---------------------------
-CREATE TABLE IF NOT EXISTS "Student"(				#we put quotes in table to avoid collision from SQL keywords
-	"USN"	TEXT NOT NULL,
-	"Password" TEXT NOT NULL,
-	"SName"	TEXT NOT NULL,
-	"Address"	TEXT,
-	"Phone Number"	INTEGER NOT NULL UNIQUE,
-	"Gender"	TEXT,
-	PRIMARY KEY("USN")
-);
+				--we put quotes in table to avoid collision from SQL keywords
+CREATE TABLE IF NOT EXISTS "Student"(
+            "SName"	TEXT NOT NULL,
+            "USN"	TEXT NOT NULL UNIQUE,
+            "UserName" TEXT NOT NULL UNIQUE,
+            "Phone Number"	INTEGER NOT NULL UNIQUE,
+            "Password" TEXT NOT NULL,
+            PRIMARY KEY("USN", "UserName")
+            ) ''');
 
 
 CREATE TABLE IF NOT EXISTS "Zonal" (

@@ -5,7 +5,7 @@ Backend file used for DataBase
 import sqlite3 as sq
 
 
-class Initialization:
+class DBInitialization:
     """
         Initialization class used to initialize the whole DB.
             Variable -
@@ -47,7 +47,7 @@ class Initialization:
             self.con.commit()
             return 0
         except Exception as e:
-            print(e)
+            print("dropTables() error -", e)
             self.con.close()
             return -1
 
@@ -80,7 +80,7 @@ class Initialization:
             fh.close()
             self.con.commit()
         except Exception as e:
-            print(e)
+            print("zonalReset() error - ", e)
             self.con.close()
             return -1
 
@@ -91,12 +91,13 @@ class Initialization:
         """
         try:
             self.cur.execute('''CREATE TABLE IF NOT EXISTS "Student"(
-                "USN"	TEXT NOT NULL,
                 "SName"	TEXT NOT NULL,
-                "Address"	TEXT,
+                "USN"	TEXT NOT NULL UNIQUE,
+                "UserName" TEXT NOT NULL UNIQUE,
                 "Phone Number"	INTEGER NOT NULL UNIQUE,
-                "Gender"	TEXT,
-                PRIMARY KEY("USN")
+                "Password" TEXT NOT NULL,
+                "Reset_Scheduled" TEXT,
+                PRIMARY KEY("USN", "UserName")
                 ) ''')
             self.cur.execute('''CREATE TABLE IF NOT EXISTS "Zonal" (
                 "State"	TEXT NOT NULL,
@@ -135,7 +136,7 @@ class Initialization:
             self.con.commit()
             return 0
         except Exception as e:
-            print(e)
+            print("createTables() error - ", e)
             self.con.close()
             return -1
 
@@ -167,16 +168,16 @@ class Initialization:
                     for num in lst_num:
                         self.cur.execute('''
                             INSERT INTO "Covid HelpLine Numbers" VALUES(?, ?)
-                            ''', (data[0], num, ))
+                            ''', (data[0], num,))
                 else:
                     self.cur.execute('''
                     INSERT INTO "Covid HelpLine Numbers" VALUES(?, ?)
-                    ''', (data[0], data[1], ))
+                    ''', (data[0], data[1],))
 
             self.con.commit()
             return 0
         except Exception as e:
-            print(e)
+            print("helplineNum() error - ", e)
             self.con.close()
             return -1
 
@@ -185,9 +186,138 @@ class Initialization:
         self.con.close()
 
 
+class DBInsertion:
+    """"
+    This class used to insert Data into DB
+    Functions-
+        1.studentInsertion(name, usn, username, phone, password)
+        2.
+    """
+
+    def __init__(self, filename):
+        self.fname = filename
+        self.con = sq.connect(filename)
+        self.cur = self.con.cursor()
+
+    def studentInsertion(self, name, usn, username, phone, password):
+        """
+        This function insert data into Student table
+        :param name:
+        :param usn:
+        :param username:
+        :param phone:
+        :param password:
+        :return: returns 0 if all goes well else print error msg and return -1 and response msg
+        """
+        try:
+            self.cur.execute('''
+            INSERT INTO Student(SName, USN, UserName, "Phone Number", Password) 
+            VALUES(?, ?, ?, ?, ?)''', (name, usn, username, phone, password,))
+            self.con.commit()
+            return [0, "Everything is fine"]
+        except Exception as e:
+            print("studentInsertion() error -", e)
+            res = e
+            self.con.close()
+            return [-1, res]
+
+    def setphoneNoasPwd(self, username):
+        """
+        This will change the password of user(using username) to phone number
+        :param username:
+        :return: returns 0 if everything fine else -1
+        """
+        try:
+            self.cur.execute('''
+            UPDATE "Student"
+            SET "Password" = (SELECT "Phone Number"
+                                FROM "Student"
+                                WHERE "UserName" = ?)
+            WHERE "UserName" = ?''', (username, username, ))
+            self.con.commit()
+            return 0
+        except Exception as e:
+            print("setphoneNoasPwd():, error -", e)
+            self.con.close()
+            return -1
+
+    def resetScheduledDate(self, username, date):
+        """
+        This will enter the Reset_Scheduled ie. date(15 days later) after opting for reset
+        :param username: user's name
+        :param date: date after opted for reset
+        :return: returns 0 if everything fine else -1
+        """
+        try:
+            # insert into [table] (data) Values
+            #               ((CASE WHEN @d IS NULL OR datalength(@d) = 0 THEN NULL ELSE @d END))
+            self.cur.execute('''
+            INSERT INTO Student(Reset_Scheduled) VALUES(
+            (CASE WHEN Reset_Scheduled IS NULL THEN )
+            WHERE ''', (date,))
+            self.con.commit()
+            return 0
+        except Exception as e:
+            print("resetScheduledDate() error -", e)
+            self.con.close()
+            return -1
+
+    def __del__(self):
+        # destructor of the class
+        self.con.close()
+
+
+class DBsearch:
+    """
+    This class facilates search
+    """
+
+    def __init__(self, filename):
+        self.fname = filename
+        self.con = sq.connect(filename)
+        self.cur = self.con.cursor()
+
+    def userSearch(self, username, pwd="abc"):
+        """
+        Checks whether username or pwd related to each other
+        :param username:
+        :param pwd:
+        :return:
+        """
+        try:
+            self.cur.execute('''
+            SELECT * FROM "Student"
+            WHERE "UserName" = ?''', (username,))
+
+            rows = self.cur.fetchall()
+            # print(rows)
+            if len(rows) == 0:
+                return "Empty"      # if no account yet created or wrong username
+            elif len(rows) == 1 and rows[0][4] == pwd:
+                return True
+            return False        # if wrong password inserted
+        except Exception as e:
+            print("userSearch(), error -", e)
+            self.con.close()
+            return -1
+
+    def __del__(self):
+        # destructor of the class
+        self.con.close()
+
+'''
 # main-function
-obj = Initialization('Ajna.db')
+obj = DBInitialization('backgrounds/Ajna.db')
 obj.dropTables()
-obj.zonalReset('ZonalDataFinal.txt')
+obj.zonalReset('backgrounds/ZonalDataFinal.txt')
 obj.createTables()
-obj.helplineNum('CovidHelpLineNo.txt')
+obj.helplineNum('backgrounds/CovidHelpLineNo.txt')
+#'''
+'''
+obj1 = DBsearch('backgrounds/Ajna.db')
+print(obj1.userSearch("Gekko", "mypwd1"))
+#'''
+'''
+obj2 = DBInsertion('backgrounds/Ajna.db')
+obj2.setphoneNoasPwd(username)
+'''
