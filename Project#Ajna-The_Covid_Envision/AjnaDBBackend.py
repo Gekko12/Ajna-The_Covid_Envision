@@ -373,6 +373,23 @@ class DBsearch:
         self.con = sq.connect(filename)
         self.cur = self.con.cursor()
 
+    def userDetail(self, usn):
+        """
+        THis functions returns all basic details
+        :param usn:
+        :return:
+        """
+        try:
+            self.cur.execute('''
+            SELECT * FROM "Student"
+            WHERE "USN" = ?''', (usn,))
+            rows = self.cur.fetchall()
+            return rows
+        except Exception as e:
+            print("userSearch(), error -", e)
+            self.con.close()
+            return -1
+
     def userSearch(self, username, pwd="abc", usneed=False):
         """
         Checks whether username or pwd related to each other

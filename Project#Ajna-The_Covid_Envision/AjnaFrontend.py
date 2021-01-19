@@ -491,7 +491,7 @@ class UserHomePage(Frame):
     def __init__(self, parent, controller):
         Frame.__init__(self, parent)
 
-        global entry_img, covidchk_img, travelhist_img, meethist_img, help_img, zone_img, logout_img
+        global entry_img, covidchk_img, travelhist_img, meethist_img, help_img, zone_img, logout_img, account_view_img
 
         frame = Frame(self, relief=RAISED, width=F_WIDTH, height=F_HEIGHT)
         frame.pack()
@@ -505,6 +505,7 @@ class UserHomePage(Frame):
         help_img = PhotoImage(file="backgrounds/Ajna - artboards/help_img.png")
         zone_img = PhotoImage(file="backgrounds/Ajna - artboards/zone_img.png")
         logout_img = PhotoImage(file="backgrounds/Ajna - artboards/logout_img.png")
+        account_view_img = PhotoImage(file="backgrounds/Ajna - artboards/account_view_butt.png")
         # placed using window gerometry dimension and image dimension ie. 178x178
         l1 = Label(frame, text=" Hello, ", font=LABEL_FONT, bg=SIGNPAGE_BG)
         l1.place(x=45, y=15)
@@ -536,6 +537,81 @@ class UserHomePage(Frame):
         logout_butt = ttk.Button(frame, command=quit)
         logout_butt.config(image=logout_img, style="My.TButton")
         logout_butt.place(x=597, y=H_Y3)
+
+        account_view_butt = ttk.Button(frame, command=lambda: self.account_view(frame, controller))
+        account_view_butt.config(image=account_view_img , style="My.TButton")
+        account_view_butt.place(x=1300, y=15)
+
+    @staticmethod
+    def account_view(frame_root, controller):
+        """
+        This function displays user details
+        :param frame:
+        :return:
+        """
+        top = Toplevel(frame_root)
+        top.title("Account View")
+        top.config(bg="pink")
+
+        x = frame_root.winfo_x()
+        y = frame_root.winfo_y()
+
+        top.geometry("%dx%d+%d+%d" % (600, 300, x+300+50+30, y+150+50+10))
+
+        obj = DBsearch(DB_FILENAME)
+        data = obj.userDetail(USN)
+        # print(data)
+
+        name = data[0][0]
+        usn = data[0][1]
+        username = data[0][2]
+        phone = data[0][3]
+        passwd = data[0][4]
+
+        l1 = Label(top, text="Account Details", font=("Arial Regular", 20), bg="pink", fg="blue")
+        l1.pack(padx=10, pady=5)
+
+        frame = Frame(top, width=500, height=180, bg="pink")
+        frame.pack(padx=10, pady=10)
+
+        l2 = Label(frame, text="Name :",font=("Arial Regular", 16), bg="pink")
+        l2.place(x=110, y=15)
+        l3 = Label(frame, text=name, font=("Chilanka", 16), bg="pink")
+        l3.place(x=250, y=17)
+
+        l4 = Label(frame, text="USN :",font=("Arial Regular", 16), bg="pink")
+        l4.place(x=110, y=45)
+        l5 = Label(frame, text=usn, font=("Chilanka", 16), bg="pink")
+        l5.place(x=250, y=47)
+
+        l6 = Label(frame, text="UserName :",font=("Arial Regular", 16), bg="pink")
+        l6.place(x=110, y=75)
+        l7 = Label(frame, text=username, font=("Chilanka", 16), bg="pink")
+        l7.place(x=250, y=77)
+
+        l8 = Label(frame, text="Phone :",font=("Arial Regular", 16), bg="pink")
+        l8.place(x=110, y=105)
+        l9 = Label(frame, text=phone, font=("Chilanka", 16), bg="pink")
+        l9.place(x=250, y=107)
+
+        l10 = Label(frame, text="Password :",font=("Arial Regular", 16), bg="pink")
+        l10.place(x=110, y=135)
+        l11 = Label(frame, text=passwd, font=("Chilanka", 16), bg="pink")
+        l11.place(x=250, y=137)
+
+        obj = DBsearch(DB_FILENAME)
+        color = obj.colorSearch(USN)
+
+        f1 = Frame(frame_root, width=20, height=20, bg=color)
+        f1.place(x=25, y=20)
+
+        l1 = Label(frame_root, text=" Hello, "+USERNAME, font=LABEL_FONT, bg=SIGNPAGE_BG)
+        l1.place(x=45, y=15)
+        controller.show_frame(UserHomePage)
+
+        ok = ttk.Button(top, text="OK", command=top.destroy)
+        ok.pack(padx=10, pady=10)
+
 
     @staticmethod
     def popDailyEntry(frame, controller, page):
