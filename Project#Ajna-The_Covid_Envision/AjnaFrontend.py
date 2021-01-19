@@ -136,7 +136,7 @@ def covidDeterminer(cough, fever, breathless, loss_taste, interaction, healthcar
         color = "red"
     elif work_count == 2:
         color = "red"
-    elif symp_count <= 3 and symp_count > 0:
+    elif symp_count <= 3 and symp_count > 1:
         color = "orange"
     elif symp_count == 0 and work_count != 0:
         color = "orange"
@@ -733,6 +733,9 @@ class CovidCheckPage(Frame):
         Frame.__init__(self, parent)
 
         global ques1_img, ques2_img, covid_symp_img, self_declare_img, submit_img
+
+        global SELF_DECLARE
+        SELF_DECLARE = 0
 
         frame = Frame(self, relief=RAISED, width=F_WIDTH, height=F_HEIGHT)
         frame.pack()

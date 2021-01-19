@@ -344,6 +344,7 @@ class DBInsertion:
                 self.cur.execute('''
                 INSERT INTO "Covid Symptoms" VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?)''',
                                  (usn, cough, fever, breathless, loss_taste, interaction, healthcare, covid_positive, color,))
+                self.con.commit()
             else:
                 self.cur.execute('''
                 UPDATE "Covid Symptoms"
