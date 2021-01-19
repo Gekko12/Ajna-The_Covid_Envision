@@ -143,6 +143,19 @@ def covidDeterminer(cough, fever, breathless, loss_taste, interaction, healthcar
     return color
 
 
+def logEntry(usn, username):
+    """
+    This function creates a log book to keep record of who made a entry in project
+    :param usn:
+    :param username:
+    :return:
+    """
+    current_date = datetime.today()
+    log_msg = usn +" " + username + '   : ' + str(current_date) + "\n"
+    fh = open('backgrounds/Ajna_Logs.txt', 'a')
+    fh.write(log_msg)
+
+
 
 class Ajna(Tk):
     """
@@ -330,6 +343,7 @@ class SigninPage(Frame):
             global USERNAME
             USERNAME = username
             getUSN(USERNAME)    #TO GET THE USN
+            logEntry(USN, USERNAME)
             controller.show_frame(UserHomePage) # jumps to user Homepage
         else:
             messagebox.showinfo("Account", "Credentials - mismatched !!!")
@@ -457,6 +471,7 @@ class RegisterPage(Frame):
                 global USERNAME
                 USERNAME = username
                 getUSN(USERNAME)
+                logEntry(USN, USERNAME)
                 controller.show_frame(UserHomePage) # jumps to user Homepage
 
 
@@ -1134,7 +1149,7 @@ class TravelHistoryPage(Frame):
                 count += 1
             my_tree.place(x=80, y=120)
         except Exception as e:
-            print("It's user-defined, ", e)
+            # print("It's user-defined, ", e)
             pass
         controller.show_frame(TravelHistoryPage)
 
@@ -1566,6 +1581,44 @@ class NotificationPage(Frame):
         back_butt.config(image=backimg, style="My.TButton")
         back_butt.place(x=75, y=630)
 
+        show_butt = ttk.Button(frame, command=lambda: self.show_affectedTable(my_tree, controller))
+        show_butt.config(image=show_img, style="My.TButton")
+        show_butt.place(x=1120, y=610)
+
+    @staticmethod
+    def show_affectedTable(my_tree, controller):
+        """
+        This will display all suspect and affcted cases user meets
+        :param my_tree:
+        :param controller:
+        :return:
+        """
+        obj = DBsearch(DB_FILENAME)
+        records = obj.infectionSearch(USN)
+
+        if len(records) == 0 or records == "Empty - no record found !!!":
+            messagebox.showinfo("Records", "No records found ??? ")
+            return
+
+        try:
+            my_tree.tag_configure('oddrow', background="#9de892")
+            my_tree.tag_configure('evenrow', background="lightblue")
+
+            count = 0
+            for data in records:
+                if count % 2 == 0:
+                    my_tree.insert(parent="", index="end", iid=count, text="", values=(data[0], data[1], data[2], data[3]),
+                                   tags=('evenrow',))
+                else:
+                    my_tree.insert(parent="", index="end", iid=count, text="", values=(data[0], data[1], data[2], data[3]),
+                                   tags=('oddrow',))
+
+                count += 1
+            my_tree.place(x=80+100, y=120)
+        except Exception as e:
+            # print("It's user-defined, ", e)
+            pass
+        controller.show_frame(NotificationPage)
 
 class SelfDeclarePage(Frame):
     """

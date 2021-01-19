@@ -452,6 +452,39 @@ class DBsearch:
             self.con.close()
             return -1
 
+    def infectionSearch(self, usn):
+        """
+        This function gives the information of meeting for suspicious and covid positive users
+        :param usn:
+        :return:
+        """
+        try:
+            self.cur.execute('''
+            SELECT * FROM "Meet History" WHERE USN=? ''', (usn,))
+            meets = self.cur.fetchall()
+            # print(meets)
+            if len(meets) == 0:
+                return "Empty - no record found !!!"
+
+            self.cur.execute('''
+            SELECT USN, Color FROM "Covid Symptoms" WHERE (Color="orange" OR Color="red")
+             AND NOT USN=?''', (usn,))
+            users = self.cur.fetchall()
+            # print(users)
+
+            res_lst = []
+            status = "Suspicious"
+            for user in users:
+                for x in meets:
+                    if x[2] == user[0]:
+                        if user[1] == "red":
+                            status = "Covid Positive"
+                        res_lst.append((x[1], x[2], x[3], status))
+            return res_lst
+        except Exception as e:
+            print("infectionSearch(), error -", e)
+            return -1
+
     def __del__(self):
         # destructor of the class
         self.con.close()
@@ -505,8 +538,9 @@ obj.helplineNum('backgrounds/CovidHelpLineNo.txt')
 #'''
 '''
 obj1 = DBsearch('backgrounds/Ajna.db')
-print(obj1.userSearch("Gekko", "mypwd1"))
-'''
+print(obj1.infectionSearch('1AT18CS128'))
+#print(obj1.userSearch("Gekko", "mypwd1"))
+#'''
 '''
 obj2 = DBInsertion('backgrounds/Ajna.db')
 print(obj2.covidSympInsertion('1AT18CS128',1,0,0,0,0,0,0,"GREEN"))
