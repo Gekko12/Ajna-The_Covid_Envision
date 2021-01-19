@@ -1,0 +1,68 @@
+												--- Ajna #3 ---
+
+
+
+----------------------------------CREATION of tables---------------------------
+				-- we put quotes in table to avoid collision from SQL keywords
+CREATE TABLE IF NOT EXISTS "Student"(
+    "SName"	TEXT NOT NULL,
+    "USN"	TEXT NOT NULL UNIQUE,
+    "UserName" TEXT NOT NULL UNIQUE,
+    "Phone Number"	INTEGER NOT NULL UNIQUE,
+    "Password" TEXT NOT NULL,
+    "Reset_Scheduled" TEXT NULL,
+    PRIMARY KEY("USN", "UserName")
+    );
+
+
+CREATE TABLE IF NOT EXISTS "Zonal" (
+	"State"	TEXT NOT NULL,
+	"District" TEXT NOT NULL,
+	"Zone"	TEXT NOT NULL,
+	PRIMARY KEY("District")
+);
+				-- https://covidindia.org/zone-restrictions/#
+
+CREATE TABLE IF NOT EXISTS "Travel History"(
+    "USN" TEXT NOT NULL,
+    "Date" TEXT, 
+    "State" TEXT,
+    "District" TEXT NOT NULL,
+    FOREIGN KEY("District") REFERENCES "Zonal"("District"),
+    FOREIGN KEY("USN") REFERENCES "Student"("USN")
+    );
+	-- on delete cascade del from child table if data is deleted from parents table
+
+-- as boolean type not support in sql so we make our own type BOOLEAN and checking it lies in range 0 and 1 only ie. 0 means False ,1 means True 			
+CREATE TABLE IF NOT EXISTS "Covid Symptoms"(
+    "USN" TEXT NOT NULL,
+    "Cough" BOOLEAN NOT NULL CHECK ("Cough" IN (0,1)) ,
+    "Fever" BOOLEAN NOT NULL CHECK ("Fever" IN (0,1)) ,
+    "Breathlessness" BOOLEAN NOT NULL CHECK ("Breathlessness" IN (0,1)) ,
+    "Loss of Taste/Smell" BOOLEAN NOT NULL CHECK ("Loss of Taste/Smell" IN (0,1)) ,
+    "Interacted with Covid +ve" BOOLEAN NOT NULL CHECK ("Interacted with Covid +ve" IN (0,1)) ,
+    "Healthcare interact positive" BOOLEAN NOT NULL CHECK ("Healthcare interact positive" IN (0,1)) ,
+    "Covid Positive" BOOLEAN NOT NULL CHECK ("Covid Positive" IN (0,1)) ,
+    "Color" TEXT NOT NULL,
+    FOREIGN KEY("USN") REFERENCES "Student"("USN") ON DELETE CASCADE ,
+    PRIMARY KEY ("USN")
+    )
+
+
+CREATE TABLE IF NOT EXISTS "Meet History" (
+	"USN"	TEXT NOT NULL,
+	"Date"	TEXT NOT NULL,
+	"M_USN" TEXT NOT NULL,
+	"M_Name" TEXT,
+	FOREIGN KEY("USN") REFERENCES "Student"("USN") ON DELETE CASCADE
+);
+
+
+CREATE TABLE IF NOT EXISTS "Covid HelpLine Numbers" (
+	"State"	TEXT NOT NULL,
+	"HelpLine Nos."	TEXT NOT NULL
+);
+
+
+
+

@@ -7,8 +7,7 @@ from re import *
 from tkinter import ttk
 from tkinter import messagebox
 from AjnaDBBackend import *
-from datetime import date
-from time import *
+from datetime import *
 
 
 LABEL_FONT = ("Arial Regular", 18)
@@ -39,63 +38,110 @@ TABLE_ROW_FONT = INPUT_FONT
 (INSERT_HEAD_QUES_GAP_Y, INSERT_QUES_GAP_Y) = (250, 60)  # INSERT_HEAD_QUES_GAP_Y is the gap b/w heading and question
 # INSERT_QUES_GAP_Y is the gap/padding in Y-axis
 
-USERNAME = "abcd"
+USERNAME = "user"
+USN = "9AB99CS999"
+DB_FILENAME = "backgrounds/Ajna.db"
+SELF_DECLARE = 0
+
 
 def date_add_15():
     """
     This function adds 15 days to current date
     :return: returns new date with 15 days added
     """
-    today = date.today()
-    print(today)
-
-    d_split = str(today)
-    yyyymmdd = d_split.split(sep='-')
-    print(yyyymmdd)
-
+    today = datetime.today()
     days_to_add = 15
-    days_lst = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+    date_after_15_days = today + timedelta(days=days_to_add)
 
-    (y, m, d) = (0, 0, 0)
+    current_date = str(today).split(sep=" ")[0]
+    after_15_date = str(date_after_15_days).split(sep=" ")[0]
 
-    year = int(yyyymmdd[0])
-    month = int(yyyymmdd[1])-1  #to correspond to list
-    date_ = int(yyyymmdd[2]) + days_to_add
-
-    if date_ > int(days_lst[month]):
-        d = date_ - int(days_lst[month])
-        m = month + 2 # +2 beacause as we start the list from 0
-        if m > 12:
-            y = year + 1
-            m = 1
-        else:
-            y_ = str(year)
-    else:
-        d = date_
-        m = month+1
-        y_ = str(year)
-
-    if len(str(d)) < 2:
-        d_ = "0"+str(d)
-    if len(str(m)) < 2:
-        m_ = "0"+str(m)
-
-    return (y_ + "-" + m_ + "-" + d_)
+    return after_15_date, current_date
 
 
-def usnValidity(usn):
-        """
-        It checks usn is valid or not and return true or false accordingly
-        :param usn: usn of user
-        :return: return True if ussn valid else False
-        """
-        # valid usn like 1AT18CS128
-        result = re.findall("([0-9][a-zA-Z][a-zA-Z][0-9][0-9][a-zA-Z][a-zA-Z][0-9][0-9][0-9])", usn)
+def usnValidity(usn="default"):
+    """
+    It checks usn is valid or not and return true or false accordingly
+    :param usn: usn of user
+    :return: return True if ussn valid else False
+    """
+    # valid usn like 1AT18CS128
+    result = re.findall("([0-9][a-zA-Z][a-zA-Z][0-9][0-9][a-zA-Z][a-zA-Z][0-9][0-9][0-9])", str(usn))
 
-        if len(result) != 0:
-            if result[0] == usn:
-                return True
+    if len(result) != 0:
+        if result[0] == usn:
+            return True
+    messagebox.showinfo("Input - Error", "USN format not valid (Correct format - 1AB18CS190, 9at20EE050, etc..) !!! ")
+    return False
+
+
+def getUSN(username):
+    """
+    This will update the global USN of username
+    :param username:
+    :return: nothing
+    """
+    obj = DBsearch(DB_FILENAME)
+    usn = obj.userSearch(username, usneed=True)
+    global USN
+    USN = usn
+    print(USN)
+
+
+def date_format_check(date="00/00/0000"):
+    """
+    To check date validity
+    :param date:
+    :return: returns True or False
+    """
+    isValidDate = True
+
+    try :
+        day,month,year = str(date).split('/')
+        # print(day, month, year)
+        datetime(int(year) ,int(month) ,int(day))
+    except Exception as e:
+        print(e)
+        isValidDate = False
+
+    if (not isValidDate):
+        messagebox.showinfo("Input - Error", "Input date is not valid (format: dd/mm/yyyy) !!!")
         return False
+    return True
+
+
+def covidDeterminer(cough, fever, breathless, loss_taste, interaction, healthcare, self_dec):
+    """
+    This will check whether user's condition in terms of Covid infection ie. green(C -ve), orange(suspect), red(c +ve)
+    :param cough: 
+    :param fever: 
+    :param breathless: 
+    :param loss_taste: 
+    :param interaction: 
+    :param healthcare: 
+    :param self_dec: 
+    :return: returns green, red, orange color
+    """
+    lst1 = [cough, fever, breathless, loss_taste]
+    symp_count = sum(lst1)
+
+    lst2 = [interaction, healthcare]
+    work_count = sum(lst2)
+
+    color = "green"
+
+    if self_dec == 1:
+        color = "red"
+    elif symp_count == 4 :
+        color = "red"
+    elif work_count == 2:
+        color = "red"
+    elif symp_count <= 3 and symp_count > 0:
+        color = "orange"
+    elif symp_count == 0 and work_count != 0:
+        color = "orange"
+    return color
+
 
 
 class Ajna(Tk):
@@ -252,12 +298,12 @@ class SigninPage(Frame):
         PopUp window will splash when we hit Forgot_button
         It's static function which can't be inheritted
         """
-        obj = DBsearch('backgrounds/Ajna.db')
+        obj = DBsearch(DB_FILENAME)
         result = obj.userSearch(username)
         if result != "Empty":
             messagebox.showinfo("Forgot Password", message="Your phone number is your new password !")
 
-            obj1 = DBInsertion('backgrounds/Ajna.db')
+            obj1 = DBInsertion(DB_FILENAME)
             obj1.setphoneNoasPwd(username)
         else:
             messagebox.showinfo("LogIn", "No record found (Register - first) !!!")
@@ -273,7 +319,7 @@ class SigninPage(Frame):
         :param controller:
         :return:
         """
-        obj = DBsearch('backgrounds/Ajna.db')
+        obj = DBsearch(DB_FILENAME)
         result = obj.userSearch(username, passwd)
         if result == -1:
             messagebox.showinfo("Error", "Error occured !!!")
@@ -283,7 +329,7 @@ class SigninPage(Frame):
         elif result:
             global USERNAME
             USERNAME = username
-            print(USERNAME,"line number 285")
+            getUSN(USERNAME)    #TO GET THE USN
             controller.show_frame(UserHomePage) # jumps to user Homepage
         else:
             messagebox.showinfo("Account", "Credentials - mismatched !!!")
@@ -403,14 +449,14 @@ class RegisterPage(Frame):
         elif passwd1 != passwd2:
             messagebox.showerror("Mismatch", "Password mismatch !!!")
         else:
-            insrt = DBInsertion('backgrounds/Ajna.db')
+            insrt = DBInsertion(DB_FILENAME)
             response = insrt.studentInsertion(name, usn, username, phone, passwd2)
             if response[0] == -1:
                 messagebox.showerror("Error",response[1])
             else:
                 global USERNAME
                 USERNAME = username
-                print(USERNAME, "line number 412")
+                getUSN(USERNAME)
                 controller.show_frame(UserHomePage) # jumps to user Homepage
 
 
@@ -445,29 +491,30 @@ class UserHomePage(Frame):
         zone_img = PhotoImage(file="backgrounds/Ajna - artboards/zone_img.png")
         logout_img = PhotoImage(file="backgrounds/Ajna - artboards/logout_img.png")
         # placed using window gerometry dimension and image dimension ie. 178x178
+        l1 = Label(frame, text=" Hello, ", font=LABEL_FONT, bg=SIGNPAGE_BG)
+        l1.place(x=45, y=15)
 
-
-        entry_butt = ttk.Button(frame, command=lambda: self.popDailyEntry(frame, controller))
+        entry_butt = ttk.Button(frame, command=lambda: self.popDailyEntry(frame, controller, DailyEntryPage))
         entry_butt.config(image=entry_img, style="My.TButton")
         entry_butt.place(x=H_X1, y=H_Y1)
 
-        covidchk_butt = ttk.Button(frame, command=lambda: controller.show_frame(CovidCheckPage))
+        covidchk_butt = ttk.Button(frame, command=lambda: self.popDailyEntry(frame, controller, CovidCheckPage))
         covidchk_butt.config(image=covidchk_img, style="My.TButton")
         covidchk_butt.place(x=H_X2, y=H_Y1)
 
-        travelhist_butt = ttk.Button(frame, command=lambda: controller.show_frame(TravelHistoryPage))
+        travelhist_butt = ttk.Button(frame, command=lambda: self.popDailyEntry(frame, controller, TravelHistoryPage))
         travelhist_butt.config(image=travelhist_img, style="My.TButton")
         travelhist_butt.place(x=H_X3, y=H_Y1)
 
-        meethist_butt = ttk.Button(frame, command=lambda: controller.show_frame(MeetHistoryPage))
+        meethist_butt = ttk.Button(frame, command=lambda: self.popDailyEntry(frame, controller, MeetHistoryPage))
         meethist_butt.config(image=meethist_img, style="My.TButton")
         meethist_butt.place(x=H_X1, y=H_Y2)
 
-        help_butt = ttk.Button(frame, command=lambda: controller.show_frame(CovidHelpLineNumberPage))
+        help_butt = ttk.Button(frame, command=lambda: self.popDailyEntry(frame, controller, CovidHelpLineNumberPage))
         help_butt.config(image=help_img, style="My.TButton")
         help_butt.place(x=H_X2, y=H_Y2)
 
-        zone_butt = ttk.Button(frame, command=lambda: controller.show_frame(CovidZonePage))
+        zone_butt = ttk.Button(frame, command=lambda: self.popDailyEntry(frame, controller, CovidZonePage))
         zone_butt.config(image=zone_img, style="My.TButton")
         zone_butt.place(x=H_X3, y=H_Y2)
 
@@ -476,16 +523,22 @@ class UserHomePage(Frame):
         logout_butt.place(x=597, y=H_Y3)
 
     @staticmethod
-    def popDailyEntry(frame, controller):
+    def popDailyEntry(frame, controller, page):
         """
         :param controller:
         :return:
         """
-        global USERNAME
-        l1 = Label(frame, text="Hello, "+USERNAME, font=LABEL_FONT, bg=SIGNPAGE_BG)
-        l1.place(x=15, y=15)
-        print(USERNAME, "line number 450")
-        controller.show_frame(DailyEntryPage)
+        global USERNAME, USN
+
+        obj = DBsearch(DB_FILENAME)
+        color = obj.colorSearch(USN)
+
+        f1 = Frame(frame, width=20, height=20, bg=color)
+        f1.place(x=25, y=20)
+
+        l1 = Label(frame, text=" Hello, "+USERNAME, font=LABEL_FONT, bg=SIGNPAGE_BG)
+        l1.place(x=45, y=15)
+        controller.show_frame(page)
 
 
 class DailyEntryPage(Frame):
@@ -546,11 +599,26 @@ class DailyEntryPage(Frame):
         """
         This function reset the Meet and Travel History
         """
-        res = messagebox.askyesno('Reset', "Are you sure you want to reset, Meet and Travel History ? ")
+        res = messagebox.askyesno('Reset', "Are you sure you want to reset, Meet and Travel History (data will exist for 15 days, for others security) ? ")
         if res :
             date = date_add_15()
-            obj = DBInsertion('backgrounds/Ajna.db')
-            resetScheduledDate
+            obj = DBInsertion(DB_FILENAME)
+            response = obj.resetScheduledDate(USERNAME, str(date[0]))
+            if response[0] == "Already - Resetted":
+                d1 = datetime.strptime(response[1], "%Y-%m-%d")
+                d2 = datetime.strptime(date[1], "%Y-%m-%d")
+                rem_days = d1 - d2
+                # print(rem_days)
+
+                if int(str(rem_days).split(sep=" ")[0]) <= 0:
+                    messagebox.showinfo("Reset", "Your Meet and Travel History deleted .")
+                    response = obj.resetScheduledDate(USERNAME, str(date[0]), "forced")
+                    del_obj = DBDeletion(DB_FILENAME)
+                    del_obj.meetTravelHistDel(USN)
+                else :
+                    rem_d = str(rem_days).split(sep=" ")[0]
+                    message = "Still "+rem_d+" days remaining !"
+                    messagebox.showinfo("Timer", message)
 
 class CovidCheckPage(Frame):
     """
@@ -629,6 +697,7 @@ class CovidCheckPage(Frame):
                                   highlightthickness=0)
         q1_none_cb1.place(x=345, y=275)
 
+
         ################################## Question-2 layout ######################################################
         l3 = Label(frame, image=ques2_img, bg=SIGNPAGE_BG)
         l3.place(x=695, y=133)
@@ -660,7 +729,9 @@ class CovidCheckPage(Frame):
         q2_none_cb2.place(x=700, y=340)
 
         ########################################### Buttons #################################################
-        submit_butt = ttk.Button(frame, command=lambda: self.submit_func(controller))
+        submit_butt = ttk.Button(frame, command=lambda: self.submit_func(controller, cough.get(), fever.get(),
+                                                             breathless.get(), loss_taste.get(), q1_none.get(),
+                                                             interaction.get(), healthcare.get(), q2_none.get()))
         submit_butt.config(image=submit_img, style="My.TButton")
         submit_butt.place(x=370, y=500)
 
@@ -677,11 +748,35 @@ class CovidCheckPage(Frame):
         back_butt.place(x=75, y=630)
 
     @staticmethod
-    def submit_func(controller):
+    def submit_func(controller, cough, fever, breathless, loss_taste, q1_none, interaction, healthcare, q2_none, self_dec = 0):
         """
-        This function popup the update window status and jumps back to UserHomePage
-        :return: returns nothing
+        This function used to get the value of covid Symptoms
+        :param controller:
+        :param cough:
+        :param fever:
+        :param breathless:
+        :param loss_taste:
+        :param q1_none:
+        :param interaction:
+        :param healthcare:
+        :param q2_none:
+        :param self_dec: by default set to 0
+        :return:
         """
+        global SELF_DECLARE, USN
+        self_dec = SELF_DECLARE
+
+        if q1_none == 1:
+            cough, fever, breathless, loss_taste = (0, 0, 0, 0)
+        if q2_none == 1:
+            interaction, healthcare = (0, 0)
+
+        covid_status_color = covidDeterminer(cough, fever, breathless, loss_taste, interaction, healthcare, self_dec)
+        # print(USN, cough, fever, breathless, loss_taste, q1_none, interaction, healthcare, q2_none, self_dec, covid_status_color)
+
+        obj = DBInsertion(DB_FILENAME)
+        obj.covidSympInsertion(USN, cough, fever, breathless, loss_taste, interaction, healthcare, self_dec, covid_status_color)
+
         messagebox.showinfo("Submit", "Update Successful !")
         controller.show_frame(UserHomePage)
 
@@ -695,6 +790,8 @@ class CovidCheckPage(Frame):
         response = messagebox.askyesno("Self-Declared", "Are you sure ?")
 
         if response:
+            global SELF_DECLARE
+            SELF_DECLARE = 1
             controller.show_frame(SelfDeclarePage)
 
 
@@ -750,10 +847,14 @@ class MeetHistoryPage(Frame):
     def __init__(self, parent, controller):
         Frame.__init__(self, parent)
 
+        global show_img
+
         frame = Frame(self, relief=RAISED, width=F_WIDTH, height=F_HEIGHT)
         frame.pack()
         frame.pack_propagate(0)
         frame.config(background=SIGNPAGE_BG)
+
+        show_img = PhotoImage(file="backgrounds/Ajna - artboards/show_butt_img.png")
 
         label = Label(frame, text="MEET HISTORY", font=HEADING_PAGE_FONT, bg=SIGNPAGE_BG)
         label.place(x=555, y=HEAD_Y)
@@ -778,28 +879,46 @@ class MeetHistoryPage(Frame):
         my_tree.heading("#2", text=" USN ", anchor=CENTER)
         my_tree.heading("#3", text=" NAME ", anchor=CENTER)
 
-        record = [["18.12.2020", "1AT18CS129", "Sumukha Hegde"], ["25.12.2020", "1AT18CS125", "Mujeeb"]
-            , ["31.12.2020", "1AT18CS006", "Sandeep"]]
-
-        my_tree.tag_configure('oddrow', background="#9de892")
-        my_tree.tag_configure('evenrow', background="lightblue")
-
-        count = 0
-        for data in record:
-            if count % 2 == 0:
-                my_tree.insert(parent="", index="end", iid=count, text="", values=(data[0], data[1], data[2]),
-                               tags=('evenrow',))
-            else:
-                my_tree.insert(parent="", index="end", iid=count, text="", values=(data[0], data[1], data[2]),
-                               tags=('oddrow',))
-
-            count += 1
-
         my_tree.place(x=80, y=120)
 
         back_butt = ttk.Button(frame, command=lambda: controller.show_frame(UserHomePage))
         back_butt.config(image=backimg, style="My.TButton")
         back_butt.place(x=75, y=630)
+
+        show_butt = ttk.Button(frame, command=lambda: self.show_meetTable(my_tree, controller))
+        show_butt.config(image=show_img, style="My.TButton")
+        show_butt.place(x=1120, y=610)
+
+    @staticmethod
+    def show_meetTable(my_tree, controller):
+        """
+        This function displays data in
+        :param my_tree:
+        :param controller:
+        :return:
+        """
+        obj = DBsearch(DB_FILENAME)
+        record = obj.meetSearch(USN)
+        # ["USN", "Date", "M_USN", "M_Name"]
+        try:
+            my_tree.tag_configure('oddrow', background="#9de892")
+            my_tree.tag_configure('evenrow', background="lightblue")
+
+            count = 0
+            for data in record:
+                if count % 2 == 0:
+                    my_tree.insert(parent="", index="end", iid=count, text="", values=(data[1], data[2], data[3]),
+                                   tags=('evenrow',))
+                else:
+                    my_tree.insert(parent="", index="end", iid=count, text="", values=(data[1], data[2], data[3]),
+                                   tags=('oddrow',))
+
+                count += 1
+            my_tree.place(x=80, y=120)
+        except Exception as e:
+            # print("It's user-defined, ", e)
+            pass
+        controller.show_frame(MeetHistoryPage)
 
 
 class CovidZonePage(Frame):
@@ -843,7 +962,7 @@ class CovidZonePage(Frame):
         my_tree.tag_configure('Red Zone', background="#ef4242")
 
         try:
-            con = sq.connect("backgrounds/Ajna.db")
+            con = sq.connect(DB_FILENAME)
             cur = con.cursor()
             cur.execute("SELECT * FROM Zonal")
             rows = cur.fetchall()
@@ -917,7 +1036,7 @@ class CovidHelpLineNumberPage(Frame):
         my_tree.tag_configure('evenrow', background="lightblue")
 
         try:
-            con = sq.connect("backgrounds/Ajna.db")
+            con = sq.connect(DB_FILENAME)
             cur = con.cursor()
             cur.execute('''SELECT * FROM "Covid HelpLine Numbers" ''')
             rows = cur.fetchall()
@@ -979,28 +1098,45 @@ class TravelHistoryPage(Frame):
         my_tree.heading("#2", text=" STATE ", anchor=CENTER)
         my_tree.heading("#3", text=" DISTRICT ", anchor=CENTER)
 
-        record = [["18.12.2020", "Karnataka", "Bangalore Rural"], ["25.12.2020", "Karnataka", "Bangalore Urban"],
-                  ["31.12.2020", "Uttar Pradesh", "Mathura"]]
-
-        my_tree.tag_configure('oddrow', background="#9de892")
-        my_tree.tag_configure('evenrow', background="lightblue")
-
-        count = 0
-        for data in record:
-            if count % 2 == 0:
-                my_tree.insert(parent="", index="end", iid=count, text="", values=(data[0], data[1], data[2]),
-                               tags=('evenrow',))
-            else:
-                my_tree.insert(parent="", index="end", iid=count, text="", values=(data[0], data[1], data[2]),
-                               tags=('oddrow',))
-
-            count += 1
-
         my_tree.place(x=80, y=120)
 
         back_butt = ttk.Button(frame, command=lambda: controller.show_frame(UserHomePage))
         back_butt.config(image=backimg, style="My.TButton")
         back_butt.place(x=75, y=630)
+
+        show_butt = ttk.Button(frame, command=lambda: self.show_TravelHist(my_tree, controller))
+        show_butt.config(image=show_img, style="My.TButton")
+        show_butt.place(x=1120, y=610)
+
+    @staticmethod
+    def show_TravelHist(my_tree, controller):
+        """
+        This function displays Travel History data
+        :param controller:
+        :return:
+        """
+        obj = DBsearch(DB_FILENAME)
+        record = obj.travelSearch(USN)
+        # ["USN", "Date", "State", "District"]
+        try:
+            my_tree.tag_configure('oddrow', background="#9de892")
+            my_tree.tag_configure('evenrow', background="lightblue")
+
+            count = 0
+            for data in record:
+                if count % 2 == 0:
+                    my_tree.insert(parent="", index="end", iid=count, text="", values=(data[1], data[2], data[3]),
+                                   tags=('evenrow',))
+                else:
+                    my_tree.insert(parent="", index="end", iid=count, text="", values=(data[1], data[2], data[3]),
+                                   tags=('oddrow',))
+
+                count += 1
+            my_tree.place(x=80, y=120)
+        except Exception as e:
+            print("It's user-defined, ", e)
+            pass
+        controller.show_frame(TravelHistoryPage)
 
 
 class InsertPage(Frame):
@@ -1023,7 +1159,7 @@ class InsertPage(Frame):
         frame.config(background=SIGNPAGE_BG)
 
         try:
-            con = sq.connect("backgrounds/Ajna.db")
+            con = sq.connect(DB_FILENAME)   # this connection used to display state and district
             cur = con.cursor()
         except Exception as e:
             print('Unable to create a connection with Ajna.db in InsertPage, error -', e)
@@ -1047,7 +1183,6 @@ class InsertPage(Frame):
                               bg=SIGNPAGE_INP_BG, fg=SIGNPAGE_INP_FG, selectborderwidth=-5)
         date_entry_l1.insert(0, "dd/mm/yyyy")
         date_entry_l1.place(x=INSERT_EX1 - 70, y=INSERT_HEAD_QUES_GAP_Y)
-
         ###############
         state_l1 = Label(frame, text="State :", font=QUES_PROMPT_FONT, bg=SIGNPAGE_BG)
         state_l1.place(x=INSERT_EX1 - 120 - 60, y=INSERT_HEAD_QUES_GAP_Y + INSERT_QUES_GAP_Y)
@@ -1087,6 +1222,7 @@ class InsertPage(Frame):
             [new_lst_district.append(st[0]) for st in lst_district]
 
             district_select = StringVar()
+
             combostyle = ttk.Style()
             combostyle.configure('ARD.TCombobox', background="#ffcc66", fieldbackground="#ffff99")
 
@@ -1122,11 +1258,15 @@ class InsertPage(Frame):
         usn_entry_l2.place(x=INSERT_EX2 - 70, y=INSERT_HEAD_QUES_GAP_Y + INSERT_QUES_GAP_Y * 2)
 
         ########################## Buttons ##########################################################
-        update_butt = ttk.Button(frame, command=lambda: controller.show_frame(DailyEntryPage))
+        update_butt = ttk.Button(frame, command=lambda: self.updatePopup(controller, state_select.get(), district_select.get(),
+                                                           date_entry_l1.get(), date_entry_l2.get(), name_entry_l2.get(),
+                                                           usn_entry_l2.get(), jump=UserHomePage))
         update_butt.config(image=update_butt_img, style="My.TButton")
         update_butt.place(x=525, y=480)
 
-        add_more_butt = ttk.Button(frame, command=self.updatePopup)
+        add_more_butt = ttk.Button(frame, command=lambda: self.updatePopup(controller, state_select.get(), district_select.get(),
+                                                           date_entry_l1.get(), date_entry_l2.get(), name_entry_l2.get(),
+                                                           usn_entry_l2.get(), jump=InsertPage))
         add_more_butt.config(image=add_more_img, style="My.TButton")
         add_more_butt.place(x=1200, y=580)
 
@@ -1135,11 +1275,30 @@ class InsertPage(Frame):
         back_butt.place(x=75, y=630)
 
     @staticmethod
-    def updatePopup():
+    def updatePopup(controller, state_t, distr_t, date_t, date_m, name_m, usn_m, jump):
         """
-        Popup msg to show that data is updated
+        This function used to insert data into Meet and Travel History table
+        :param controller:
+        :param state_t:
+        :param distr_t:
+        :param date_t:
+        :param date_m:
+        :param name_m:
+        :param usn_m:
+        :param jump: from where we have jump after update
         """
-        messagebox.showinfo("Update", message="Update Successfull ( you can insert new data :) ")
+        if date_format_check(date_t) and date_format_check(date_m) and usnValidity(usn_m):
+            if jump == InsertPage:
+                messagebox.showinfo("Update", message="Update Successfull ( you can insert new data :) ")
+            else:
+                messagebox.showinfo("Update", message="Update Successfull ")
+            obj = DBInsertion(DB_FILENAME)
+            obj.meetTravelHistInsert(state_t, distr_t, date_t, date_m, name_m, usn_m, USN)
+            # print(date_t, state_t, distr_t, date_m, name_m, usn_m)
+        else:
+            messagebox.showinfo("Error", message="Incorrect format of data")
+            print(date_t, state_t, distr_t, date_m, name_m, usn_m)
+        controller.show_frame(jump)
 
 
 class SearchPage(Frame):
@@ -1229,23 +1388,18 @@ class SearchPage(Frame):
         :param value: what we have to look for
         :return: nothing
         """
-
-        # ["State", "District", "Date"]
-        record = [
-            ["23/12/2020", "Karnataka", "Bengaluru Urban"],
-            ["07/01/2021", "Uttar Pradesh", "Mathura"],
-            ["23/12/2020", "Karnataka", "Marathahalli"],
-        ]
-
+        obj = DBsearch(DB_FILENAME)
+        record = obj.travelSearch(USN)
+        # ["USN", "Date", "State", "District"]
         new_lst = []
         indx = 0
 
         if key == "State":
-            indx = 1
-        elif key == "District":
             indx = 2
+        elif key == "District":
+            indx = 3
         elif key == "Date":
-            indx = 0
+            indx = 1
 
         for i in range(len(record)):
             if record[i][indx] == value:
@@ -1280,10 +1434,10 @@ class SearchPage(Frame):
         count = 0
         for data in new_lst:
             if count % 2 == 0:
-                my_tree_travel.insert(parent="", index="end", iid=count, text="", values=(data[0], data[1], data[2]),
+                my_tree_travel.insert(parent="", index="end", iid=count, text="", values=(data[1], data[2], data[3]),
                                       tags=('evenrow',))
             else:
-                my_tree_travel.insert(parent="", index="end", iid=count, text="", values=(data[0], data[1], data[2]),
+                my_tree_travel.insert(parent="", index="end", iid=count, text="", values=(data[1], data[2], data[3]),
                                       tags=('oddrow',))
 
             count += 1
@@ -1305,6 +1459,23 @@ class SearchPage(Frame):
         :param value: what we have to look for
         :return: nothing
         """
+        obj = DBsearch(DB_FILENAME)
+        record = obj.meetSearch(USN)
+        # ["USN", "Date", "M_USN", "M_Name"]
+        new_lst = []
+        indx = 0
+
+        if key == "Name":
+            indx = 3
+        elif key == "USN":
+            indx = 2
+        elif key == "Date":
+            indx = 1
+
+        for i in range(len(record)):
+            if record[i][indx] == value:
+                new_lst.append(record[i])
+
         frame2 = Frame(frame, relief=RAISED, width=550, height=250, bg=SIGNPAGE_BG)
         frame2.place(x=INSERT_EX2 - 170, y=INSERT_HEAD_QUES_GAP_Y + INSERT_QUES_GAP_Y * 2)
 
@@ -1327,6 +1498,20 @@ class SearchPage(Frame):
         my_tree.heading("#1", text=" DATE ", anchor=CENTER)
         my_tree.heading("#2", text=" USN ", anchor=CENTER)
         my_tree.heading("#3", text=" NAME ", anchor=CENTER)
+
+        my_tree.tag_configure('oddrow', background="#9de892")
+        my_tree.tag_configure('evenrow', background="lightblue")
+
+        count = 0
+        for data in new_lst:
+            if count % 2 == 0:
+                my_tree.insert(parent="", index="end", iid=count, text="", values=(data[1], data[2], data[3]),
+                                      tags=('evenrow',))
+            else:
+                my_tree.insert(parent="", index="end", iid=count, text="", values=(data[1], data[2], data[3]),
+                                      tags=('oddrow',))
+
+            count += 1
 
         my_tree.bind('<<TreeviewSelect>>')
         my_tree.pack(side="left", fill="y")
@@ -1413,7 +1598,7 @@ class SelfDeclarePage(Frame):
         label3 = Label(frame, image=aware_img, bg=SIGNPAGE_BG)
         label3.place(x=700, y=200-10)
         ################################# Buttons #################################
-        ok_butt = ttk.Button(frame, command=lambda: controller.show_frame(UserHomePage))
+        ok_butt = ttk.Button(frame, command=lambda: controller.show_frame(CovidCheckPage))
         ok_butt.config(image=ok_butt_img, style="My.TButton")
         ok_butt.place(x=450, y=590-5)
 
