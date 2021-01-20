@@ -548,7 +548,7 @@ class DBDeletion:
 obj = DBInitialization('backgrounds/Ajna.db')
 obj.dropTables()
 obj.zonalReset('backgrounds/ZonalDataFinal.txt')
-'''
+#'''
 '''
 obj = DBInitialization('backgrounds/Ajna.db')
 obj.createTables()

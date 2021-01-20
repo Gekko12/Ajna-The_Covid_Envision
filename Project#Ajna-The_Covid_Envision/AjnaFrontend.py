@@ -66,12 +66,12 @@ def usnValidity(usn="default"):
     :return: return True if ussn valid else False
     """
     # valid usn like 1AT18CS128
-    result = re.findall("([0-9][a-zA-Z][a-zA-Z][0-9][0-9][a-zA-Z][a-zA-Z][0-9][0-9][0-9])", str(usn))
+    result = re.findall("([0-9][A-Z][A-Z][0-9][0-9][A-Z][A-Z][0-9][0-9][0-9])", str(usn))
 
     if len(result) != 0:
         if result[0] == usn:
             return True
-    messagebox.showinfo("Input - Error", "USN format not valid (Correct format - 1AB18CS190, 9at20EE050, etc..) !!! ")
+    messagebox.showinfo("Input - Error", "USN format not valid (Correct format - [0-9][A-Z][A-Z][0-9][0-9][A-Z][A-Z][0-9][0-9][0-9]) !!! ")
     return False
 
 
