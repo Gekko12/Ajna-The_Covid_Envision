@@ -136,7 +136,8 @@
 	 You have Indicated symptom sand / or conditions related to COVID-19
 	during Self-Covid Check.
 
-
+													
 							###Contributors				
-							- Gaurav Sharma (Coder) & Sumukha Hegde (Designer)
+							- Gaurav Sharma (Coder) (gauravsharma01042000@gmail.com)
+							  & Sumukha Hegde (Designer)
 							
