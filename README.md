@@ -1,4 +1,4 @@
-			###	Ajna - The Covid Envision ###
+##	Ajna - The Covid Envision
 					
 	The Main Obejctive of this project to prevent the spread of the coronavirus
 	pandemic in College. Ajna uses contact tracing to record details of all the
