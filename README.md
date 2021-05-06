@@ -137,5 +137,5 @@
 	during Self-Covid Check.
 
 Contributors :- Gaurav Sharma (Coder)
-	        Sumukha Hegde (Designer)
+	         and Sumukha Hegde (Designer)
 
