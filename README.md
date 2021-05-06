@@ -137,7 +137,7 @@
 	during Self-Covid Check.
 
 
-				###Contributors				
-				- Gaurav Sharma (Coder) (gauravsharma01042000@gmail.com)
-				  & Sumukha Hegde (Designer)
+#Contributors				
+	- Gaurav Sharma (Coder) (gauravsharma01042000@gmail.com)
+	  & Sumukha Hegde (Designer)
 
