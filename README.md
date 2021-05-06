@@ -138,6 +138,6 @@
 
 
 #Contributors				
-	- Gaurav Sharma (Coder) (gauravsharma01042000@gmail.com)
+	- Gaurav Sharma (Coder)
 	  & Sumukha Hegde (Designer)
 
