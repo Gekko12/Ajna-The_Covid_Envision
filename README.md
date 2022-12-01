@@ -135,7 +135,3 @@
 	meeting and/or for a significant period of time.
 	 You have Indicated symptom sand / or conditions related to COVID-19
 	during Self-Covid Check.
-
-Contributors :- Gaurav Sharma (Coder)
-	         and Sumukha Hegde (Designer)
-
